@@ -20,6 +20,12 @@ defaults:
     permalink: "/posts/:title/"
 - scope:
     path: ''
+    type: notes
+  values:
+    layout: post
+    permalink: "/notes/:title/"
+- scope:
+    path: ''
     type: pages
   values:
     layout: page
