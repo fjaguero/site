@@ -4,6 +4,20 @@ layout: default
 
 <div class="home">
 
+  <h1 class="page-heading">Notes</h1>
+
+  <ul class="post-list">
+    {% for note in site.notes %}
+      <li>
+        <span class="post-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ note.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
