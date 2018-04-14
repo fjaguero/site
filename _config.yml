@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+    type:
+    - post
+    - note
   uploads:
     title: Uploads
     output: true
