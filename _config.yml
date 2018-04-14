@@ -2,12 +2,15 @@
 title: Fernando Agüero
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   notes:
     title: Notes
     output: true
+  posts:
+    title: Posts
+    output: true
+    type:
+    - post
+    - note
   uploads:
     title: Uploads
     output: true
@@ -18,12 +21,6 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: notes
-  values:
-    layout: post
-    permalink: "/notes/:title/"
 - scope:
     path: ''
     type: pages
