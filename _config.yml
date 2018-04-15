@@ -2,11 +2,11 @@
 title: Fernando Agüero
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   notes:
     title: Notes
+    output: true
+  posts:
+    title: Posts
     output: true
   uploads:
     title: Uploads
