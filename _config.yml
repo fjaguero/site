@@ -13,13 +13,13 @@ collections:
     output: true
 defaults:
 - scope:
-    path: 'posts'
+    path: posts
     type: posts
   values:
     layout: default
     permalink: "/posts/"
 - scope:
-    path: 'notes'
+    path: notes
     type: posts
   values:
     layout: default
