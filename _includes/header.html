@@ -18,7 +18,10 @@
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
-        {% endfor %}
+          {% endfor %}
+          <a class="page-link" href="{{ site.baseurl }}{{ "/posts" }}">Posts</a>
+          <a class="page-link" href="{{ site.baseurl }}{{ "/notes" }}">Notes</a>
+          <a class="page-link" href="{{ site.baseurl }}{{ "/bookmarks" }}">Bookmarks</a>
       </div>
     </nav>
 

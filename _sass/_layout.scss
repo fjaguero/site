@@ -100,7 +100,21 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
+    ul { margin-left: 0 }
+
+    li {
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 10px;
+
+        a {
+          color: #bdbdbd;
+        }
+    }
+
 }
+
 
 .footer-heading {
     font-size: 18px;
@@ -168,6 +182,17 @@
 /**
  * Page content
  */
+.page-intro {
+    margin: .3em 0;
+    font-family: 'Merriweather',serif;
+    font-size: 52px;
+    line-height: 1.25em;
+}
+
+.intro {
+    font-family: 'Merriweather',serif;
+}
+
 .page-content {
     padding: $spacing-unit 0;
 }
