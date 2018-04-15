@@ -12,7 +12,7 @@ layout: default
         <span class="post-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ note.title }}</a>
+          <a class="post-link" href="{{ note.url | prepend: site.baseurl }}">{{ note.title }}</a>
         </h2>
       </li>
     {% endfor %}
