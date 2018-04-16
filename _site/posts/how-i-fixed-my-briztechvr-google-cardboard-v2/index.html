@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How I fixed my BrizTechVR Google Cardboard V2 lens issues</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/posts/how-i-fixed-my-briztechvr-google-cardboard-v2/">
+  <link rel="alternate" type="application/rss+xml" title="Fernando Agüero" href="http://localhost:4000/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Fernando Agüero</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About me</a>
+          
+          
+          
+          <a class="page-link" href="/another-page/">Another page</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="page-link" href="/posts">Posts</a>
+          <a class="page-link" href="/notes">Notes</a>
+          <a class="page-link" href="/bookmarks">Bookmarks</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How I fixed my BrizTechVR Google Cardboard V2 lens issues</h1>
+    <p class="post-meta"><time datetime="2018-04-16T01:15:49+00:00" itemprop="datePublished">Apr 16, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/content/images/2016/04/cardboard.png" alt="Cardboard" /></p>
+
+<p>This week I ordered the <a href="http://www.amazon.co.uk/dp/B00Z6SIARQ/ref=sr_1_1?ie=UTF8&amp;qid=1428254133&amp;sr=8-1&amp;keywords=google%20cardboard&amp;m=A12O1TAXK1QT74">BrizTechVR Google Cardboard V2</a>. These are not the original <a href="https://www.google.com/get/cardboard/">Google Cardboard</a> but since this is basically <em>cardboard</em>, the guys from BrizTechVR followed the <a href="https://www.google.com/get/cardboard/get-cardboard/">specifications</a> for both the first and the V2 version.</p>
+
+<p>You can’t expect a incredible quality <em>tech</em> product for 20€, but the improvments from the first version are worthy (there are <a href="http://www.hypergridbusiness.com/2016/03/review-lenest-viewer-is-close-to-perfect/">some &lt;30€ non-cardboard</a> versions with really good reviews). The V2 version now it comes with a push button (no more magnets) and it’s ready to handle large screen devices.</p>
+
+<h3 id="the-problem">The problem</h3>
+<p><strong>The QR code that set the lens config wasn’t working properly</strong></p>
+
+<p>I tried them on both Android and iOS to check the marketplaces and see what was available. At the end, the <a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo&amp;hl=es">Cardboard</a> app has some good recommendations. My favorite one is <a href="http://vrse.com/">VRSE</a>. It’s not a game but a platform for VR storytelling.</p>
+
+<p>I started watching the NYT <em>Walking in New York</em> <a href="http://vrse.com/watch/id/100/">documentary</a> but suddenly what I was viewing <strong>was wrong</strong>. It wasn’t correctly centered. I was able to correctly view the video by closing one eye… so I guessed that the QR code that has the configuration settings wasn’t working properly. Actually, I tried some other games and it worked perfectly.</p>
+
+<h2 id="the-solution">The solution</h2>
+
+<p><strong>Creating a custom lens config did the trick</strong></p>
+
+<p><img src="/content/images/2016/04/Captura-de-pantalla-2016-04-03-a-las-3-09-30.png" alt="Viewer Profile Generator" /></p>
+
+<p>Turns out that <a href="https://www.reddit.com/r/GoogleCardboard/comments/3ed1b3/double_vision_with_cardboard_app_incorrect/">I wasn’t the only one</a> having this kind of problems.</p>
+
+<p>All the software that uses the <a href="https://developers.google.com/cardboard/">Cardboard SDK</a> are able to change the lens config. This allows everyone to make his own cardboard and then just generate a <strong>Viewer Profile</strong>.</p>
+
+<p>To generate the <a href="https://www.google.com/get/cardboard/viewerprofilegenerator/">viewer profile</a> we need to pair the phone and the browser by accessing an specific URL that the profile generator give us.</p>
+
+<p><img src="/content/images/2016/04/profile-generator.png" alt="Profile generator" /></p>
+
+<p>Basically I changed the main parameters like this:</p>
+
+<p><img src="/content/images/2016/04/Captura-de-pantalla-2016-04-03-a-las-21-49-35.png" alt="Config" /></p>
+
+<p>And finally… the generated QR code if you want to try it:</p>
+
+<p><img src="/content/images/2016/04/qr_viewer_profile.png" alt="QR code" /></p>
+
+<p>Never settle.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul>
+      <li>
+        <a href="https://medium.com/@fjaguero">Medium</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/@fjaguero">Twitter</a>
+      </li>
+      <li>
+        <a href="http://github.com/fjaguero">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn">LinkedIn</a>
+      </li>
+    </ul>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

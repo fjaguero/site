@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>5 reasons why I choose React-Meteor for my projects</title>
+  <meta name="description" content="This is a small summary of why I am really happy developing apps with Meteor and the react-meteor package.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/posts/5-reasons-why-i-choose-react-meteor-for-my-projects/">
+  <link rel="alternate" type="application/rss+xml" title="Fernando Agüero" href="http://localhost:4000/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Fernando Agüero</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About me</a>
+          
+          
+          
+          <a class="page-link" href="/another-page/">Another page</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="page-link" href="/posts">Posts</a>
+          <a class="page-link" href="/notes">Notes</a>
+          <a class="page-link" href="/bookmarks">Bookmarks</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">5 reasons why I choose React-Meteor for my projects</h1>
+    <p class="post-meta"><time datetime="2018-04-16T01:15:49+00:00" itemprop="datePublished">Apr 16, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><em>This is a small summary of why I am really happy developing apps with Meteor and the react-meteor package.</em></p>
+
+<h2 id="1-development-speed">1. Development speed</h2>
+
+<p>The main reason of the combo is clear: <strong>speed</strong>. It’s crucial to test what you are building as fast as possible. Show your work to people and just ship it™.</p>
+
+<p>Don’t lose time on the all common tasks like the environment setup, build configurations, deploys, login systems, complex data handling, etc.</p>
+
+<p>This is a list of thing that you already have when you start a Meteor project:</p>
+
+<ul>
+  <li>User login/registration (3 lines of code)</li>
+  <li>Password change/recovery (5 lines of code)</li>
+  <li>Backend authentication</li>
+  <li>Database setup</li>
+  <li>Easy Deploys</li>
+  <li>Hot-reload development</li>
+  <li>Data reactivity</li>
+  <li>Data sync in real-time</li>
+</ul>
+
+<p>Many of the common tasks are already solved. Just keep one thing in mind: <strong>Don’t reinvent the wheel™</strong> .</p>
+
+<p>There is no need to do all the bootstrapping from ground up… just focus on the core values of what your are building.</p>
+
+<p>A quick example: With <a href="https://github.com/arunoda/meteor-up/tree/mupx">Meteor Up</a> you can handle the full deploy process without leaving the command… with a single command.</p>
+
+<h2 id="2-real-time-with-no-config-needed">2. Real-time with no config needed</h2>
+
+<p><img src="https://media.giphy.com/media/zmRmrZFPoqh6U/giphy.gif" alt="Websockets" />
+<span class="caption">Real-time data out of the box. Yay!</span></p>
+
+<p>With the MEAN stack, when you make a REST request for a table/collection, you’re essentially saying “Send me the results of this query”. With Meteor, you subscribe to the results of that query, and any newly created or modified documents that matched will be automatically sent to the client over a fast WebSocket connection.</p>
+
+<p>Meteor uses <a href="https://www.meteor.com/ddp">DDP</a>, which basically uses stringified JSONs over WebSocket. It’s a simple protocol for fetching structured data from a sever and receiving live updates when the data changes.</p>
+
+<p>What you feel when you have an entire app synced between browsers and users without writing a line of code is amazing.</p>
+
+<p><strong>There’s no need to neither setup anything nor learn a special API!</strong></p>
+
+<h2 id="3-universal-javascript">3. Universal JavaScript</h2>
+
+<p><img src="/content/images/2016/03/meteor-arch.png" alt="Meteor Architecture" />
+<span class="caption">The Meteor Architecture</span></p>
+
+<p>All the client and server-side code in the same repo. Same code works on iOS and Android. No context switch, you feel it’s all the same.</p>
+
+<p>A small example of both sides:</p>
+
+<h5 id="server-code">Server code</h5>
+<pre><code class="language-language-javascript">// Serve all the user data for our Goals collection
+Meteor.publish("goals", function (userId) {
+  return Goals.find({
+    'userId': this.userId
+  });
+});
+</code></pre>
+
+<h5 id="client-code">Client code</h5>
+<pre><code class="language-language-javascript">// Using the react-meteor mixin ReactMeteorData
+getMeteorData() {
+  let sub = Meteor.subscribe("goals")
+
+  return {
+    goals: Goals.find({
+     'userId': Meteor.userId()
+   }).fetch()
+  }
+}
+</code></pre>
+
+<p>The other good thing is that when you make a change on the backend code, the browser/server is refreshed with the latest changes. Free hot-reload on both sides with zero config (no need for Webpack/Browserify).</p>
+
+<h2 id="4-components-magic">4. Components magic</h2>
+
+<p><img src="https://media.giphy.com/media/ujUdrdpX7Ok5W/giphy.gif" alt="Magic" />
+<span class="caption">Using one-way data flow</span></p>
+
+<p>I don’t want to get into detail with React but I can say that it radically changed the way I work with front-end code (like Meteor changed everything I knew when I started using it).</p>
+
+<p>The main wins:</p>
+
+<ul>
+  <li>Declarative code is super easy to reason about</li>
+  <li>One way data flows are easy to follow</li>
+  <li>It’s just JavaScript with a small API</li>
+</ul>
+
+<p>If you are already using React, the only new thing you will have when working with Meteor is that it exposes some methods like <code class="highlighter-rouge">getMeteorData()</code>, which basically serves you the data over the socket connection. Every time a change is made, your props/state change and the view is updated. Easy peasy.</p>
+
+<h2 id="5-less-codelearning-curve">5. Less code/learning curve</h2>
+
+<p>The learning curve is low for React: it’s just components + state + props. No 300 pages books, no playing with the <em>best</em> way to handle your data for months.</p>
+
+<p>In the case of Meteor, the learning curve can be higher, but no in terms of code, it’s a paradigm change. The main things are <code class="highlighter-rouge">reactivity</code>, <code class="highlighter-rouge">publications and subscriptions</code> and how you handle client and server <code class="highlighter-rouge">collections</code>. Actually the Meteor server-side is a NodeJS on asteroids.</p>
+
+<p>Check this code below.</p>
+
+<pre><code class="language-language-javascript">Camino.Goals = React.createClass({
+  mixins: [ReactMeteorData],
+
+  // Fetch the data. Reactive and real-time by default.
+  getMeteorData() {
+    let sub = Meteor.subscribe("goals")
+
+    return {
+      isLoading: !sub.ready(),
+      goals: Goals.find({
+        'userId': Meteor.userId()
+      }).fetch()
+    }
+  },
+
+  // Pass the data to the view
+  showGoals() {
+    return (
+      &lt;div className="goals section__container"&gt;
+        &lt;GoalsList goals={this.data.goals} /&gt;
+      &lt;/div&gt;
+    )
+  },
+
+  // Show a loading spinner
+  showSpinner() {
+    return &lt;Spinner /&gt;
+  },
+
+  // Render the Goals view
+  render() {
+    return (
+      &lt;div className="jumbotron"&gt;
+        &lt;div className="container"&gt;
+          {
+            this.data.isLoading ? this.showSpinner() : this.showGoals()
+          }
+        &lt;/div&gt;
+      &lt;/div&gt;
+    )
+  }
+
+})
+</code></pre>
+
+<p>This is an example of a controller-like view that:</p>
+
+<ul>
+  <li>Is subscribed to a previously defined data scheme</li>
+  <li>Handles the server data in real-time</li>
+  <li>Handles changes reactively</li>
+  <li>Uses a React component to make the changes on the Virtual DOM, preventing unnecessary re-flows</li>
+</ul>
+
+<p>This means that if any of the clients or the database changes, the view gets updated in every session (browsers, for example) in an efficient way (in terms of performance).</p>
+
+<p><strong>No extra code needed. Boom.</strong></p>
+
+<p><img src="https://media.giphy.com/media/YLgIOmtIMUACY/giphy.gif" alt="Meteor" />
+<span class="caption">When you realize all the time you lost by not using this amazing combo</span></p>
+
+<hr />
+
+<h4 id="further-readings">Further readings</h4>
+<ul>
+  <li><a href="https://www.meteor.com/tutorials/react/creating-an-app">Meteor To-do app with React</a></li>
+  <li><a href="https://www.discovermeteor.com/blog/reactivity-basics-meteors-magic-demystified/">Reactivity Basics: Meteor’s Magic Demystified</a></li>
+  <li><a href="https://kadira.io/academy/meteor-performance-101">Meteor performance 101</a></li>
+  <li><a href="https://themeteorchef.com/snippets/making-use-of-settings-json/#tmc-what-is-settingsjson">Making Use of Settings.json</a></li>
+</ul>
+
+<p><em><strong>Update:</strong>
+The Meteor Developer Group just released <a href="http://info.meteor.com/blog/announcing-meteor-1.3">Meteor 1.3</a> which has new great features such as the ability to use ES2015 Modules, a built-in application testing suite, a native NPM integration (on both client and server) among more.</em></p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul>
+      <li>
+        <a href="https://medium.com/@fjaguero">Medium</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/@fjaguero">Twitter</a>
+      </li>
+      <li>
+        <a href="http://github.com/fjaguero">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn">LinkedIn</a>
+      </li>
+    </ul>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

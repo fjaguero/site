@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The magic of gulpfiles: Part I</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/notes/magic-gulpfiles-part-1/">
+  <link rel="alternate" type="application/rss+xml" title="Fernando Agüero" href="http://localhost:4000/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Fernando Agüero</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About me</a>
+          
+          
+          
+          <a class="page-link" href="/another-page/">Another page</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="page-link" href="/posts">Posts</a>
+          <a class="page-link" href="/notes">Notes</a>
+          <a class="page-link" href="/bookmarks">Bookmarks</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The magic of gulpfiles: Part I</h1>
+    <p class="post-meta"><time datetime="2018-04-16T01:15:49+00:00" itemprop="datePublished">Apr 16, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="http://cl.ly/image/3629180a1X02/gulp.jpg" alt="Gulp" /></p>
+
+<p>I’ve been using Gulp for a while and <strong>I’m really in love with it so far</strong>. I prefer code (Gulp) over config (Grunt) since the node style looks more familiar and flexible.</p>
+
+<p>In this first post I want to share the <em>gulpfile</em> I use to build an extension, both for the stage environment and distribution via the Chrome Store. I use another gulpfile for the webapp I’m working and I will probably share it the next week. I commentend almost every line of this one so it’s as clear as possible.</p>
+
+<p>Like many build files, it’s a work in progress and I’m always up to improvements. The only thing that you won’t see in this config file is something related with tests. We will implement the test tasks as soon as we choose a test suite for the extension.</p>
+
+<h2 id="packages-used">Packages used</h2>
+
+<pre><code class="language-language-javascript">// Where the magic starts
+var gulp = require('gulp'),
+
+// Minify css with [clean-css](https://github.com/GoalSmashers/clean-css), including optional caching
+minifycss = require('gulp-minify-css'),
+
+// [JSHint](http://www.jshint.com/) plugin for gulp
+jshint = require('gulp-jshint'),
+
+// Minify JavaScript with [UglifyJS2](https://github.com/mishoo/UglifyJS2)
+uglify = require('gulp-uglify'),
+
+// Provides simple file renaming methods
+rename = require('gulp-rename'),
+
+// A plugin for livereload best used with the livereload chrome/firefox extension
+livereload = require('gulp-livereload'),
+
+// Tiny LiveReload server, background-friendly
+lr = require('tiny-lr'),
+
+// Used to run the LiveReload server
+server = lr(),
+
+// Generates complexity analysis reports
+plato = require('gulp-plato'),
+
+// A string replace plugin
+replace = require('gulp-replace'),
+
+// Generates a TODO.md file from your javascript todos and fixmes
+todo = require('gulp-todo'),
+
+// A plugin for removing files and folders
+clean = require('gulp-clean'),
+
+// Strips console and debugger statements from JavaScript code
+stripDebug = require('gulp-strip-debug'),
+
+// Utility functions for gulp plugins
+gutil = require('gulp-util'),
+
+// Removes unneeded whitespaces, line-breaks, comments, etc from HTML
+cleanhtml = require('gulp-cleanhtml'),
+
+// ZIP compress files
+zip = require('gulp-zip'),
+
+// We will get the extension version from the manifest file
+manifest = require('./manifest.json')
+
+// Files that will be copied when building stage/dist
+var filesToMove = [
+    './_locales/**/*.*',
+    './images/*.*/'
+];
+
+</code></pre>
+
+<h2 id="tasks-used">Tasks used</h2>
+
+<h3 id="cleaning-directories">Cleaning directories</h3>
+
+<p><strong>clean-stage:</strong> Removes everything from the /stage directory. This task is used just before the <em>stage</em> taks is run.</p>
+
+<pre><code class="language-language-javascript">// Cleans the stage directory
+gulp.task('clean-stage', function() {
+
+	// Logs a colored message on the console
+    gutil.log(gutil.colors.cyan('===== CLEANING STAGE DIRECTORY ======'));
+
+    return gulp.src(['stage/*'], {
+        read: false
+    })
+        .pipe(clean());
+});
+</code></pre>
+
+<p><strong>clean-dist:</strong> Removes everything from the /dist directory. This task is used just before the <em>dist</em> taks is run.</p>
+
+<pre><code class="language-language-javascript">// Cleans the dist directory
+gulp.task('clean-dist', function() {
+
+	// Logs a colored message on the console
+    gutil.log(gutil.colors.cyan('===== CLEANING DIST DIRECTORY ======'));
+
+    return gulp.src(['dist/*'], {
+        read: false
+    })
+        .pipe(clean());
+});
+</code></pre>
+
+<h3 id="javascript">Javascript</h3>
+
+<p><strong>scripts:</strong> Runs JSHint on the Javascript files</p>
+
+<pre><code class="language-language-javascript">// Runs JSHint on scripts
+gulp.task('scripts', function() {
+    return gulp.src('javascripts/*.js')
+        .pipe(jshint())
+        .pipe(jshint.reporter('jshint-stylish'))
+    // .pipe(jshint.reporter('fail'))
+    .pipe(livereload(server));
+});
+</code></pre>
+
+<p><strong>watch:</strong> Watches the Javascript files and run JSHint in every change</p>
+
+<pre><code class="language-language-javascript">// Watch .js files on change
+gulp.task('watch', function() {
+	
+    // Starts LiveReload server
+    server.listen(35729, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+        gulp.watch('javascripts/*.js', ['scripts']);
+    });
+
+});
+</code></pre>
+
+<h3 id="building">Building</h3>
+
+<p><strong>stage:</strong> Builds the stage extension folder</p>
+
+<pre><code class="language-language-javascript">// Stage extension packaging. clean-stage is run before starting.
+gulp.task('stage', ['clean-stage'], function() {
+
+	// Logs a colored message on the console
+    gutil.log(gutil.colors.yellow('===== CREATING STAGE EXTENSION ======'));
+
+    // Moves static files to the new stage folder
+    gulp.src(filesToMove, {
+        base: './'
+    })
+        .pipe(gulp.dest('stage'));
+
+    // Replaces domain and Mixpanel references from production to stage
+    gulp.src('javascripts/*.js')
+        .pipe(replace('Extension Production', 'Extension Stage'))
+        .pipe(replace('12345123451234', '543215432154321'))
+        .pipe(gulp.dest('stage/javascripts'));
+
+    // Minifies CSS
+    gulp.src('stylesheets/*.css')
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(minifycss())
+        .pipe(gulp.dest('stage/stylesheets'));
+
+    // Replaces references to JS and CSS to the minified files
+    gulp.src('./*.html')
+        .pipe(replace('.css', '.min.css'))
+        .pipe(gulp.dest('stage/'));
+
+    // Replaces content-script css reference on the manifest.json
+    gulp.src('./manifest.json')
+        .pipe(replace('content-script.css', 'content-script.min.css'))
+        .pipe(gulp.dest('stage/'));
+
+});
+</code></pre>
+<p><strong>zip-stage:</strong> Creates a zip file to distribute the stage extension</p>
+
+<pre><code class="language-language-javascript">// Creates a zip file to distribute the stage extension
+gulp.task('zip-stage', ['stage'], function() {
+
+    // Gets the current version from the manifest file
+    var version = manifest.version;
+
+    // Logs a colored message on the console
+    gutil.log(gutil.colors.yellow('===== PACKAGING STAGE v' + version + ' ZIP ======'));
+
+    return gulp.src('./stage/**/*.*')
+        .pipe(zip('stage-' + version + '-ext.zip'))
+        .pipe(gulp.dest('./'));
+
+});
+</code></pre>
+
+<p><strong>dist:</strong> Builds the distribution extension folder</p>
+
+<pre><code class="language-language-javascript">
+// Distribution extension packaging. clean-dist is run before starting.
+gulp.task('dist', ['clean-dist'], function() {
+	
+    // Logs a colored message on the console
+    gutil.log(gutil.colors.yellow('===== CREATING DIST EXTENSION ======'));
+
+    // Moves static files to the new dist folder
+    gulp.src(filesToMove, {
+        base: './'
+    })
+        .pipe(gulp.dest('dist'));
+
+    // Replaces domain and Mixpanel references from stage to production and change icon
+    // Uglifies and removes debug statements from Javascript files
+    gulp.src('javascripts/*.js')
+        .pipe(replace('stage.domain.com', 'www.domain.com'))
+        .pipe(replace('icon-logged-in-stage.png', 'icon-logged-in.png'))
+        .pipe(replace('Extension Stage', 'Extension production'))
+        .pipe(replace('543215432154321', '12345123451234'))
+        .pipe(uglify())
+        .pipe(stripDebug())
+        .pipe(gulp.dest('dist/js'))
+        .on('error', gutil.log);
+
+    // Minifies CSS
+    gulp.src('stylesheets/*.css')
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(minifycss())
+        .pipe(gulp.dest('dist/css'));
+
+    // Replaces references to JS and CSS to the minified files
+    gulp.src('./*.html')
+        .pipe(replace('src="javascripts/', 'src="js/'))
+        .pipe(replace('stylesheets/', 'css/'))
+        .pipe(replace('.css', '.min.css'))
+        .pipe(cleanhtml())
+        .pipe(gulp.dest('dist/'));
+
+    // Replaces stage references to production and renames directories
+    gulp.src('./manifest.json')
+        .pipe(replace('icon-48-stage.png', 'icon-48.png'))
+        .pipe(replace('icon-16-stage.png', 'icon-16.png'))
+        .pipe(replace('Extension Stage', 'Extension Production'))
+        .pipe(replace('stylesheets', 'css'))
+        .pipe(replace('javascripts', 'js'))
+        .pipe(replace('content-script.css', 'content-script.min.css'))
+        .pipe(gulp.dest('dist'));
+});
+
+</code></pre>
+<p><strong>zip-dist:</strong> Creates a zip file to distribute the production extension</p>
+
+<pre><code class="language-language-javascript">// Creates zip file to distribute the production extension
+gulp.task('zip-dist', ['dist'], function() {
+
+    // Gets the current version from the manifest file
+    var version = manifest.version;
+
+    // Logs a colored message on the console
+    gutil.log(gutil.colors.yellow('===== PACKAGING v' + version + ' ZIP ======'));
+
+    return gulp.src('./dist/**/*.*')
+        .pipe(zip('production-' + version + '-ext.zip'))
+        .pipe(gulp.dest('./'));
+
+});
+</code></pre>
+
+<h3 id="miscellaneous">Miscellaneous</h3>
+
+<p><strong>todo:</strong> Builds a TODO.md file from the javascript todos and fixmes. This is useful when you know that a code can be improved but you don’t know how to do it yet.</p>
+
+<pre><code class="language-language-javascript">// Generate TODO.md file from the javascript todos and fixmes
+gulp.task('todo', function() {
+    gulp.src('javascripts/*')
+        .pipe(todo())
+        .pipe(gulp.dest('todo'));
+});
+</code></pre>
+
+<p><strong>plato:</strong> Generates the plato directory with a complexity analysis. An example from the <a href="http://es-analysis.github.io/plato/examples/jquery/">jQuery library</a>.</p>
+
+<pre><code class="language-language-javascript">// Generates Plato complexity analysis
+gulp.task('plato', function() {
+    gulp.src('javascripts/*')
+        .pipe(plato('report', {
+            jshint: {
+                options: {
+                    strict: false
+                }
+            },
+            complexity: {
+                trycatch: true
+            }
+        }));
+});
+</code></pre>
+<p>I hope you found something useful to use in your own gulpfile. They are hundres of packages to use and sometimes I’m not aware of the great things that can be done with Gulp.</p>
+
+<p>Mind to share your gulpfile?</p>
+
+<p>Thanks!</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul>
+      <li>
+        <a href="https://medium.com/@fjaguero">Medium</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/@fjaguero">Twitter</a>
+      </li>
+      <li>
+        <a href="http://github.com/fjaguero">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn">LinkedIn</a>
+      </li>
+    </ul>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
