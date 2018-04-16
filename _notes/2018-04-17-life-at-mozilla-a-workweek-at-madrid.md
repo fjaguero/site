@@ -1,8 +1,16 @@
 ---
+title: 'Life at Mozilla: A Workweek at Madrid'
+date: 2018-04-16 01:15:49 Z
+tags:
+- Mozilla
+- Life-At-Mozilla
 layout: post
+<<<<<<< HEAD
 title:  "Life at Mozilla: A Workweek at Madrid"
 date:   2014-05-05 00:52:35
 tags:   Mozilla Life-At-Mozilla
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 ![](http://cl.ly/image/3w2o1U1B0A3C/team.jpg)

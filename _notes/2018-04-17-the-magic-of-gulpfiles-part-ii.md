@@ -1,8 +1,17 @@
 ---
+title: 'The magic of gulpfiles: Part II'
+date: 2018-04-16 01:15:49 Z
+tags:
+- Gulp
+- Javascript
+- Tools
 layout: post
+<<<<<<< HEAD
 title:  "The magic of gulpfiles: Part II"
 date:   2014-08-23 18:15:29
 tags:   Gulp Javascript Tools
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 ![gulp II](http://cl.ly/image/3o1b0P0a2S0z/gulp2.png)

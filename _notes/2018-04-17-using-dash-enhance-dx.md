@@ -1,8 +1,18 @@
 ---
+title: Using Dash to enhance Developer Experience (DX)
+date: 2018-04-16 01:15:49 Z
+tags:
+- Tools
+- Code
+- dx
+- Documentation
 layout: post
+<<<<<<< HEAD
 title:  "Using Dash to enhance Developer Experience (DX)"
 date:   2016-02-25 00:09:16
 tags:   Tools Code dx Documentation
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 > This is a post of a DX tagged series on how I improve my developer experience

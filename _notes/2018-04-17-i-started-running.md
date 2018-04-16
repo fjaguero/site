@@ -1,10 +1,17 @@
 ---
+title: I started running
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
+- Running
 layout: post
+<<<<<<< HEAD
 title:  "I started running"
 date:   2014-05-12 23:57:13
 tags:   Personal Running
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
-
 
 ![Running](http://cl.ly/image/1U0r1W3l3m1n/running.jpg)
 

@@ -1,11 +1,11 @@
 ---
+title: The Motivation Tank
+date: 2018-04-16 01:15:49 Z
+tags:
+- Habits
+- Motivation
 layout: post
-title:  "The Motivation Tank"
-date:   2018-04-16 01:15:49
-tags:   Habits Motivation
 ---
-
-
 
 When writing, I always like to check the multiple definitions that a word can have. In this case the following definition is accurate for what I understand by my experience:
 

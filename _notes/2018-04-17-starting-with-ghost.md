@@ -1,8 +1,11 @@
 ---
+title: Starting with Ghost
+date: 2018-04-16 01:15:49 Z
+tags:
+- Getting-Started
+- Ghost
+- Medium
 layout: post
-title:  "Starting with Ghost"
-date:   2018-04-16 01:15:49
-tags:   Getting-Started Ghost Medium
 ---
 
 A new adventure begins with **Ghost 0.3.2.**

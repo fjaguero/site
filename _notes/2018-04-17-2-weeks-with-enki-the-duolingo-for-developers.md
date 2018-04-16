@@ -1,8 +1,12 @@
 ---
+title: Two weeks with Enki, the Duolingo for developers
+date: 2018-04-17 01:15:49 Z
+tags:
+- Habits
+- Code
+- Game
+- App
 layout: post
-title:  "Two weeks with Enki, the Duolingo for developers"
-date:   2018-04-17 01:15:49
-tags:   Habits Code Game App
 ---
 
 ![Enki](/content/images/2016/01/enki.png)

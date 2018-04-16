@@ -1,8 +1,16 @@
 ---
+title: My experience on FutureJS
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
+- Javascript
 layout: post
+<<<<<<< HEAD
 title:  "My experience on FutureJS"
 date:   2014-08-18 17:55:09
 tags:   Personal Javascript
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 ### The learning process

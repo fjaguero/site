@@ -1,8 +1,16 @@
 ---
+title: Discovering the "Story Cubes"
+date: 2018-04-16 01:15:49 Z
+tags:
+- Writing
+- Creativity
 layout: post
+<<<<<<< HEAD
 title:  "Discovering the \"Story Cubes\""
 date:   2016-06-01 19:47:08
 tags:   Writing Creativity
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 Last month I discovered the [Story Cubes](https://www.storycubes.com/) while navigating on my Instagram feed. One of the users I follow, [@peregrinogris](https://www.instagram.com/peregrinogris/), started the #100dayproject using this _kids_ toy that boosts creativity.

@@ -1,8 +1,10 @@
 ---
+title: How I fixed my BrizTechVR Google Cardboard V2 lens issues
+date: 2018-04-16 01:15:49 Z
+tags:
+- Cardboard
+- VR
 layout: post
-title:  "How I fixed my BrizTechVR Google Cardboard V2 lens issues"
-date:   2018-04-16 01:15:49
-tags:   Cardboard VR
 ---
 
 ![Cardboard](/content/images/2016/04/cardboard.png)

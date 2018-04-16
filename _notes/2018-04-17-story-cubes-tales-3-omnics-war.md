@@ -1,8 +1,17 @@
 ---
+title: 'Story Cubes Tales #3: The Omnics War'
+date: 2018-04-16 01:15:49 Z
+tags:
+- Writing
+- Creativity
+- Story-Cubes
 layout: post
+<<<<<<< HEAD
 title:  "Story Cubes Tales #3: The Omnics War"
 date:   2016-06-21 19:49:47
 tags:   Writing Creativity Story-Cubes
+=======
+>>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
 ---
 
 ![Cubes](/content/images/2016/06/cubes2.jpg)
