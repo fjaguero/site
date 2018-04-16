@@ -1,17 +1,5 @@
 ---
-title: The whiteboard miracle
-date: 2018-04-16 01:15:49 Z
-tags:
-- Aluana-Labs
-- Startups
-- Design
-layout: post
-<<<<<<< HEAD
-title:  "The whiteboard miracle"
-date:   2013-12-17 02:24:38
-tags:   Aluana-Labs Startups Design
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 The Whiteboard Miracle
 ---
 
 ![Teamwork](http://f.cl.ly/items/370J343S3A063a401Z33/office-bg.jpg)

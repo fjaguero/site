@@ -1,15 +1,5 @@
 ---
-title: A new commitment
-date: 2018-04-16 01:15:49 Z
-tags:
-- Personal
-layout: post
-<<<<<<< HEAD
-title:  "A new commitment"
-date:   2014-05-07 22:30:36
-tags:   Personal
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 A New Commitment
 ---
 
 ![Writing](http://cl.ly/image/402b1i1c3t3U/writingbg.jpg)

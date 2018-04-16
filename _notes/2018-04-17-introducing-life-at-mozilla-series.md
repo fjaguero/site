@@ -1,16 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Introducing \"Life at Mozilla\" series"
-date: 2013-10-29 22:45:28
-tags: Contribute Mozilla Life-At-Mozilla
-=======
-title: Introducing "Life at Mozilla" series
-date: 2018-04-16 01:15:49 Z
-tags:
-- Contribute
-- Mozilla
-- Life-At-Mozilla
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Introducing Life At Mozilla Series
 ---
 
 **It's been a huge year at Mozilla**. And the previous one... and the past one.

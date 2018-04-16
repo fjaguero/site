@@ -1,16 +1,5 @@
 ---
-title: Celebrating the International Privacy Day
-date: 2018-04-16 01:15:49 Z
-tags:
-- Mozilla
-- Privacy
-layout: post
-<<<<<<< HEAD
-title:  "Celebrating the International Privacy Day"
-date:   2014-01-28 00:40:09
-tags:   Mozilla Privacy
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Celebrate The International Privacy Day
 ---
 
 ![Privacy Please](http://f.cl.ly/items/2F2D3j0L1j2c3c2B0D1j/Image%202014-01-28%20at%201.35.07%20a.m..png)

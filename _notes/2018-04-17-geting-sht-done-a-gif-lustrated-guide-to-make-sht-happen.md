@@ -1,16 +1,5 @@
 ---
-title: Geting  Sh*t done - A GIF-lustrated guide to make sh*t happen
-date: 2018-04-16 01:15:49 Z
-tags:
-- Talks
-- Productivity
-layout: post
-<<<<<<< HEAD
-title:  "Geting  Sh*t done - A GIF-lustrated guide to make sh*t happen"
-date:   2016-03-20 23:37:50
-tags:   Talks Productivity
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Geting Sht Done A Gif Lustrated Guide To Make Sht Happen
 ---
 
 ![](/content/images/2016/03/sentisis-fjaguero-1.jpg)

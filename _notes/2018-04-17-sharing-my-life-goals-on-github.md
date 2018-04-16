@@ -1,19 +1,5 @@
 ---
-title: Sharing my life goals on GitHub and how to achieve them
-date: 2018-04-16 01:15:49 Z
-tags:
-- Personal
-- Goals
-- Habits
-- Life
-- Github
-layout: post
-<<<<<<< HEAD
-title:  "Sharing my life goals on GitHub and how to achieve them"
-date:   2016-01-06 00:43:00
-tags:   Personal Goals Habits Life Github
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Sharing My Life Goals On Github
 ---
 
 While writing my 2015 recap post I stumbled with a [post](http://www.bonillaware.com/objetivos-para-2016) from [David Bonilla](https://twitter.com/david_bonilla) through twitter, it was another *resolutions* post. After reading the article I moved to the comments and discovered that [Elena Torró](https://twitter.com/elenarcolepsia) was using an idea she found on GitHub: **a repo to create your goals as issues**, getting the closed issues as achievements.

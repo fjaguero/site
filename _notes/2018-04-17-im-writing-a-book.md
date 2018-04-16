@@ -1,18 +1,5 @@
 ---
-title: I'm writing a book
-date: 2018-04-16 01:15:49 Z
-tags:
-- Writing
-- book
-- publishing
-- success
-layout: post
-<<<<<<< HEAD
-title:  "I'm writing a book"
-date:   2016-08-01 07:03:07
-tags:   Writing book publishing success
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Im Writing A Book
 ---
 
 One of my year goals was to read 3x more than the last year. I'm on track with that. On the other hand, one long-term goal was to write a book. It's true that the more you read and write, the better you become at writing. **Is then a better way to improve your writing than actually writing a book?**

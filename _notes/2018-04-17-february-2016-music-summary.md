@@ -1,16 +1,5 @@
 ---
-title: February Music Recap
-date: 2018-04-16 01:15:49 Z
-tags:
-- Music
-- Recap
-layout: post
-<<<<<<< HEAD
-title:  "February Music Recap"
-date:   2016-03-01 00:20:17
-tags:   Music Recap
-=======
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 February 2016 Music Summary
 ---
 
 This month was HUGE. Probably one of the best of this year if we speak about music events. I saw two great bands live: **The Tallest Man On Earth** and **Millencolin**.

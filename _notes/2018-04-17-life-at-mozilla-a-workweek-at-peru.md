@@ -1,11 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Life at Mozilla: A Workweek at Peru"
-date: 2013-11-17 20:25:36
-=======
-title: 'Life at Mozilla: A Workweek at Peru'
-date: 2018-04-16 01:15:49 Z
->>>>>>> d6ac61c10235bf52e3bd6cebe94ee12e7bd7817b
+title: 2018 04 17 Life At Mozilla A Workweek At Peru
 ---
 
 *UPDATE - 08/05/2014 : The photos are not showing correctly. I will fix it ASAP.*
