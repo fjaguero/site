@@ -40,10 +40,6 @@
           
           
           
-          <a class="page-link" href="/another-page/">Another page</a>
-          
-          
-          
           
           
           
@@ -72,7 +68,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">The magic of gulpfiles: Part I</h1>
-    <p class="post-meta"><time datetime="2018-04-16T01:15:49+00:00" itemprop="datePublished">Apr 16, 2018</time></p>
+    <p class="post-meta"><time datetime="2014-05-24T16:25:52+00:00" itemprop="datePublished">May 24, 2014</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -197,7 +193,7 @@ gulp.task('scripts', function() {
 
 <pre><code class="language-language-javascript">// Watch .js files on change
 gulp.task('watch', function() {
-	
+
     // Starts LiveReload server
     server.listen(35729, function(err) {
         if (err) {
@@ -274,7 +270,7 @@ gulp.task('zip-stage', ['stage'], function() {
 <pre><code class="language-language-javascript">
 // Distribution extension packaging. clean-dist is run before starting.
 gulp.task('dist', ['clean-dist'], function() {
-	
+
     // Logs a colored message on the console
     gutil.log(gutil.colors.yellow('===== CREATING DIST EXTENSION ======'));
 

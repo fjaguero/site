@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The magic of gulpfiles: Part II"
-date:   2018-04-16 01:15:49
+date:   2014-08-23 18:15:29
 tags:   Gulp Javascript Tools
 ---
 
@@ -68,7 +68,7 @@ gulp.task('styles', function() {
 Note how the ```$.if``` is used to detect the file type. The *remove unused CSS* is really useful to cut down boilerplate CSS lines.
 
 The tasks here are:
- 
+
  - Concatenate And Minify JavaScript
  - **Remove unused CSS**
  - Concatenate And Minify Styles
@@ -171,4 +171,3 @@ gulp.task('pagespeed', pagespeed.bind(null, {
 ### The rise of Gulp
 
 In the last months I've seen more and more projects using gulp instead of Grunt. Google is one of the companies that is pushing forward this movement, specially [Addy Osmani](https://github.com/addyosmani) on his projects.
-

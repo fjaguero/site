@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The whiteboard miracle"
-date:   2018-04-16 01:15:49
+date:   2013-12-17 02:24:38
 tags:   Aluana-Labs Startups Design
 ---
 
@@ -14,7 +14,7 @@ After a **month an half** of validating our idea, market and users, **we started
 
 ### Fast prototyping
 
-I started prototyping with HTML/CSS and [Bootstrap 3](http://getbootstrap.com/). We wanted to have the final design quick (on 48 hours) so I moved to Photoshop and, with the magical help of [Invision](http://www.invisionapp.com/), I designed the remaining interactions. The party of iterations was there. 
+I started prototyping with HTML/CSS and [Bootstrap 3](http://getbootstrap.com/). We wanted to have the final design quick (on 48 hours) so I moved to Photoshop and, with the magical help of [Invision](http://www.invisionapp.com/), I designed the remaining interactions. The party of iterations was there.
 
 ### Quick iteration
 
@@ -30,7 +30,7 @@ We have individual stats for each session of a user. In this case, the sessions 
 
 ### Next steps
 
-Ruby on Rails for back-end, Backbone.js+Sass for front-end and some Elasticsearch sugar for the database. These are the main ingredients to make this happen. 
+Ruby on Rails for back-end, Backbone.js+Sass for front-end and some Elasticsearch sugar for the database. These are the main ingredients to make this happen.
 
 Now the best part comes: Making things happen.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I started running"
-date:   2018-04-16 01:15:49
+date:   2014-05-12 23:57:13
 tags:   Personal Running
 ---
 
@@ -9,7 +9,7 @@ tags:   Personal Running
 ![Running](http://cl.ly/image/1U0r1W3l3m1n/running.jpg)
 
 ![Beach](http://cl.ly/image/2p3w460E180k/beach.jpg)
-**It all began in a sunny afternoon in the beach**. 
+**It all began in a sunny afternoon in the beach**.
 
 It was supposed to be a *quick footbal game* with my flatmate Ivo, but some Italians guys proposed to play a match. After 10 minutes, I was really tired. It began there, but let me give this some *context*.
 
@@ -35,7 +35,7 @@ I stopped running for a week but I was mentally preparing for a fresh new start.
 I spoke with Alvaro, the CEO of my company, and he recommended me a place. It was not a big store, but it was a trusted place by many runners in Valencia. I went there and the experience was completely different. I spent almost 30 minutes talking with the guy from the store. He explained me all the technologies from every brand, and recommended me 6 different shoes that may be a good choice. I finally chose the Asics ones. It was “love at first try”. Since I never tried running shoes before, I was used to normal football shoes... but the feeling was something that I never felt before. I was thinking something like: “Ok, everyone can run with this!”. They were other options but I decided to take them home. The same day I started the training.
 
 ## A new feeling
- 
+
 Running can give you many different feelings. Some people may say that it’s only a way to feel pain and get exhausted, but others like me see in running a way to escape from the world that worry us. I started running with music, but then I stopped and realized that the disconnection with the world is even more when you feel the things happening around you. Running is a way to learn that, if you put effort on something, you can get it. The training is always a way to beat myself and show me that the effort is on the right track. Crossing the finish line in every training is really empowering. It feels like you completed your mission, your task at hand.
 
 My first objective is the 10k. I hope I can get to this in June (or at least that’s what the training program says!).
@@ -43,4 +43,3 @@ My first objective is the 10k. I hope I can get to this in June (or at least tha
 PD: I finished my first 50k today!
 
 See you on the road!
-

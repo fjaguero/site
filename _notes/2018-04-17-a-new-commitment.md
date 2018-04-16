@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A new commitment"
-date:   2018-04-16 01:15:49
+date:   2014-05-07 22:30:36
 tags:   Personal
 ---
 
@@ -17,9 +17,8 @@ There’s no excuse. Everyday we learn something or at least something worthy to
 
 Because I like to write. This means research, which motivates learning. Here is when feedback comes in. People’s feedback is valuable, specially when you are learning from a specific topic. After all, *teaching is the best way to learn*.
 
-There is a key advice on how to be a good writer. It’s not black magic or something innate. It’s called *writing*. Yes, the more you write, the better you get. 
+There is a key advice on how to be a good writer. It’s not black magic or something innate. It’s called *writing*. Yes, the more you write, the better you get.
 
 You can read many books but the best way to learn how to tell stories is by trying to tell stories. Telling stories is a key point that you can apply to many things, like presentations. Tell your stories and learn from others.
 
 Let's keep the writing going!
-

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sharing my life goals on GitHub and how to achieve them"
-date:   2018-04-16 01:15:49
+date:   2016-01-06 00:43:00
 tags:   Personal Goals Habits Life Github
 ---
 
@@ -27,13 +27,11 @@ The yesterday's note looked like this:
 
 These goals change over time and it's a selection of what has a higher priority or are kind of *quick-wins*.
 
-The workflow is heavily borrowed from the [SELF Journal](http://bestself.co/products/self-journal), something I just bought this week as it's a project I'd like to support. 
+The workflow is heavily borrowed from the [SELF Journal](http://bestself.co/products/self-journal), something I just bought this week as it's a project I'd like to support.
 
-I share what they think of getting stuff done: 
+I share what they think of getting stuff done:
 > The secret to success is in the small actions you take every day.
 
 By taking little steps and staying focused you can achieve whatever you want, you just need to **create some habits**.
 
 Never settle.
-
-

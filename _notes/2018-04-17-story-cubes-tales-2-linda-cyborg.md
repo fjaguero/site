@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Story Cubes Tales #2: Linda, the cyborg"
-date:   2018-04-16 01:15:49
+date:   2016-06-07 19:16:28
 tags:   Creativity Story-Cubes Sci-Fi
 ---
 
@@ -20,5 +20,3 @@ Luckly, a huge land-transport vehicle was driving along the ground. Linda, uncon
 ---
 
 _This is part of the [Story Cubes](http://fjaguero.com/discovering-the-story-cubes/) creative exercise_
-
-

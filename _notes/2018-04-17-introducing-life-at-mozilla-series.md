@@ -1,6 +1,6 @@
 ---
 title: "Introducing \"Life at Mozilla\" series"
-date: 2018-04-16 01:15:49 Z
+date: 2013-10-29 22:45:28
 tags: Contribute Mozilla Life-At-Mozilla
 ---
 

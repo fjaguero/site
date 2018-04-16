@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Celebrating the International Privacy Day"
-date:   2018-04-16 01:15:49
+date:   2014-01-28 00:40:09
 tags:   Mozilla Privacy
 ---
 
@@ -25,4 +25,3 @@ Here you have some ideas to ensure privacy on Firefox:
 Happy Privacy Day!
 
 This article is a translation from [Mozilla Hispano](http://mozilla-hispano.org)
-

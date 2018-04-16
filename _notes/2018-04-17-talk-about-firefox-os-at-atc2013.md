@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Talk about Firefox OS at ATC2013"
-date:   2018-04-16 01:15:49
-tags:   Talks Firefox-OS
+date:   2013-10-24 20:52:28
+tags:   Talks Firefox-OS Mozilla
 ---
 
 

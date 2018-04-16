@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I'm writing a book"
-date:   2018-04-16 01:15:49
+date:   2016-08-01 07:03:07
 tags:   Writing book publishing success
 ---
 
@@ -25,4 +25,3 @@ Feel free to contact me with some feedback, it will be deeply appreciated.
 
 ---
 _[Join the mailing list](http://thesuccesshacker.es) and get notified when the free first chapter of The Success Hacker is available._
-

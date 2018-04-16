@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Discovering the \"Story Cubes\""
-date:   2018-04-16 01:15:49
+date:   2016-06-01 19:47:08
 tags:   Writing Creativity
 ---
 

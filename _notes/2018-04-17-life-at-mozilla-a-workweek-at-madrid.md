@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Life at Mozilla: A Workweek at Madrid"
-date:   2018-04-16 01:15:49
+date:   2014-05-05 00:52:35
 tags:   Mozilla Life-At-Mozilla
 ---
 
@@ -15,7 +15,7 @@ This April we had a community meeting on Madrid to kickoff the year. People from
 
 ![Me and Gery](http://f.cl.ly/items/0o3V0l1S2T1M3N3f3K0e/gery-fjaguero.jpg)
 
-The last day, Gabriela Montagu guided a special test day focusing on the Sync functionalities (thanks Juan Becerra for the effort). I also want to highlight the talk by Jorge Villalobos about how the Labs blog is performing and what are the next steps. 
+The last day, Gabriela Montagu guided a special test day focusing on the Sync functionalities (thanks Juan Becerra for the effort). I also want to highlight the talk by Jorge Villalobos about how the Labs blog is performing and what are the next steps.
 
 ### An optimized Workweek
 

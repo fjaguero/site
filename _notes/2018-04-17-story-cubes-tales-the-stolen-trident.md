@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Story Cubes Tales #1: The Stolen Trident"
-date:   2018-04-16 01:15:49
+date:   2016-06-02 19:58:22
 tags:   Writing Creativity Story-Cubes
 ---
 
@@ -15,4 +15,3 @@ Aurelius was the most ambitious human on earth. He always wanted to be a semi-go
 ---
 
 _This is part of the [Story Cubes](http://fjaguero.com/discovering-the-story-cubes/) creative exercise_
-

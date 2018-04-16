@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My first race"
-date:   2018-04-16 01:15:49
+date:   2014-05-18 19:05:09
 tags:   Personal Running Achivements
 ---
 
@@ -13,7 +13,7 @@ The first challenge has been completed after weeks of effort. I ran my first rac
 
 ![Volta a Peu XXXII](http://cl.ly/image/0S1Y0y272u0b/voltaapeu32.jpg)
 
-I was worried about my calves but at the end there was no problem. In fact, I felt pretty good while crossing the finish line. No muscle pain. It was true what people said about running with thousands of people around you... you will run more than you imagine. 
+I was worried about my calves but at the end there was no problem. In fact, I felt pretty good while crossing the finish line. No muscle pain. It was true what people said about running with thousands of people around you... you will run more than you imagine.
 
 ## The beginning
 
@@ -33,4 +33,3 @@ There’s no need to say that **the best moment was to cross the finish line**. 
 We already have plans for the next challenge. It will be on October, a half marathon... which is 21 kilometers, almost 3 times this race! It may sound like a big deal, but I still have 4 months to be prepared. With effort and continuity I'm sure I can make this happen... as anything in life.
 
 > Credits: Header photo by [Correcaminos](https://www.flickr.com/photos/35713387@N06/)
-

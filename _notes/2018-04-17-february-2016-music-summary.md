@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "February Music Recap"
-date:   2018-04-16 01:15:49
+date:   2016-03-01 00:20:17
 tags:   Music Recap
 ---
 
@@ -39,7 +39,7 @@ The Tallest Man on Earth **is on my top 5 most listened artists** from the last 
 
 ![Top 5](/content/images/2016/02/Captura-de-pantalla-2016-03-01-a-las-0-45-11.png)
 
-The concert was on the *Joy Eslava* club. First time there for me. The club looked like a small theater from the 60's. Small but cozy. 
+The concert was on the *Joy Eslava* club. First time there for me. The club looked like a small theater from the 60's. Small but cozy.
 
 I was expecting a solo concert from *Kristian* but it turned out that he brought his entire _new_ band to the tour. He moved from the broken-voice-guitar to a more elaborated sound in his last album, _Dark Bird is Home_. Drums, bass, guitars, piano, violins and even a steel guitar. Incredible sound. The climax of the concert was expected: _King of Spain_.
 
@@ -67,7 +67,7 @@ My picks from the original soundtrack:
 * [Naru, Embracing the Light (feat. Rachel Mellis) ](https://open.spotify.com/track/3xi2OTo7NcuXeOAadk7Uy3)
 * [Inspiriting](https://open.spotify.com/track/2zRITpQkUmaRwfIC2dsCIC)
 * [Restoring the Light, Facing the Dark](https://open.spotify.com/track/06bhzoaKDYTkgMB6yzgRoy)
-* [Light of Nibel (feat. Aeralie Brighton)](https://open.spotify.com/track/79aotvPXTlHbZ8MvoxhqAE) 
+* [Light of Nibel (feat. Aeralie Brighton)](https://open.spotify.com/track/79aotvPXTlHbZ8MvoxhqAE)
 
 #### 4. Angels and Airwaves
 ![Ava](/content/images/2016/03/ava.jpg)
@@ -78,7 +78,7 @@ My picks are from their first albums:
 
 * [Everything's Magic](https://open.spotify.com/track/4eC8Cq2Q6zIelJgF4nC2DK)
 * [Good Day](https://open.spotify.com/track/4I9XyDNevIrsMlCLDiZOuR)
-* [Secret Crowds](https://open.spotify.com/track/5tz7UrfFRduRbQgrn91B6Y) 
+* [Secret Crowds](https://open.spotify.com/track/5tz7UrfFRduRbQgrn91B6Y)
 * [It Hurts](https://open.spotify.com/track/5TUAwxEDqA6f86jQjBOvNI)
 * [True Love](https://open.spotify.com/track/6SzjXcc5UjmMP1Fzj15tYm)
 
@@ -114,5 +114,3 @@ Here's a list of mixed songs I discovered/listened a lot this month. Some of the
 See you next month.
 
 Never settle.
-
-

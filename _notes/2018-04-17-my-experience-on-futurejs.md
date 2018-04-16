@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "My experience on FutureJS"
-date:   2018-04-16 01:15:49
+date:   2014-08-18 17:55:09
 tags:   Personal Javascript
 ---
 
 ### The learning process
 
-I started in _Aluana_ in November and since then I’ve learning a lot. Quite a lot. In fact, I think that I learned more in the last 6 months that in the last 2 years. 
+I started in _Aluana_ in November and since then I’ve learning a lot. Quite a lot. In fact, I think that I learned more in the last 6 months that in the last 2 years.
 
 At the company, we allocate one hour every day for learning, making a total of 20hrs/month plus the continuous learning developers do while programming. Events and conferences are great places to improve our knowledge and, specially, learn about cutting-edge trends and technologies.
 
@@ -57,7 +57,7 @@ The rest of the talk was about the possibility to have a common language in the 
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/Rb3AAQ-xDjQ?list=UUwoOpKfkyCQHW562hXXQAGg" frameborder="0" allowfullscreen></iframe>
 
-I know that the Web Audio API may not “sound” too futuristic, but the things that you can do in the browser are amazing. Is not common for a web developer to play with the Web Audio API, so many of us didn’t know all the complex things that can be done. 
+I know that the Web Audio API may not “sound” too futuristic, but the things that you can do in the browser are amazing. Is not common for a web developer to play with the Web Audio API, so many of us didn’t know all the complex things that can be done.
 
 Jaume's speciality is this API, he developed the sound integration for the webpage of the movie *Gravitiy*. He showed us an interactive demo, playing with different filters and configurations. It was really easy to follow and everyone learned a lot in just 50 minutes. The complexity was increasing as he played with different filters, finishing with the connection of the different inputs and a mutiplexer.
 
@@ -75,7 +75,7 @@ Ben is famous for doing this kind of interactive talks where everyone can partic
 
 ![FutureMeter](http://cl.ly/image/1e0l2g0B2x3M/Image%202014-08-18%20at%207.50.51%20p.%20m..png)
 
-After an entire day of demos about performance, reactive programming and real time, we were eager to do some fancy Javascript. That night we had a idea that we wanted to share with everyone at the event: The [FutureMeter](http://futurejs.meteor.com). 
+After an entire day of demos about performance, reactive programming and real time, we were eager to do some fancy Javascript. That night we had a idea that we wanted to share with everyone at the event: The [FutureMeter](http://futurejs.meteor.com).
 
 It was a web that showed the number of times that every speaker said the words *today* and *future*. We built it in the hotel room in a matter of hours while drinking. We thought it was going to be fun... and it was!
 

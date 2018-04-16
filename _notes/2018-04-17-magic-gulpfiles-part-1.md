@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The magic of gulpfiles: Part I"
-date:   2018-04-16 01:15:49
+date:   2014-05-24 16:25:52
 tags:   Gulp Javascript Tools
 ---
 
@@ -133,7 +133,7 @@ gulp.task('scripts', function() {
 ```language-javascript
 // Watch .js files on change
 gulp.task('watch', function() {
-	
+
     // Starts LiveReload server
     server.listen(35729, function(err) {
         if (err) {
@@ -213,7 +213,7 @@ gulp.task('zip-stage', ['stage'], function() {
 
 // Distribution extension packaging. clean-dist is run before starting.
 gulp.task('dist', ['clean-dist'], function() {
-	
+
     // Logs a colored message on the console
     gutil.log(gutil.colors.yellow('===== CREATING DIST EXTENSION ======'));
 
@@ -315,6 +315,6 @@ gulp.task('plato', function() {
 ```
 I hope you found something useful to use in your own gulpfile. They are hundres of packages to use and sometimes I'm not aware of the great things that can be done with Gulp.
 
-Mind to share your gulpfile? 
+Mind to share your gulpfile?
 
 Thanks!

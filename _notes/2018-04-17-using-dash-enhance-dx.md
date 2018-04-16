@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Dash to enhance Developer Experience (DX)"
-date:   2018-04-16 01:15:49
+date:   2016-02-25 00:09:16
 tags:   Tools Code dx Documentation
 ---
 
@@ -21,7 +21,7 @@ The game changing thing is to use the right **shortcut**. Thanks to it I can qui
 
 I use this a lot, from small details of the _underscore_ library to bigger implementations docs from _D3_.
 
-It also has a **Snippets**  functionality, which is really cool. I used it in the past but right now I moved all of my code snippets directly to Atom (like a React component boilterplate we use at Séntisis). 
+It also has a **Snippets**  functionality, which is really cool. I used it in the past but right now I moved all of my code snippets directly to Atom (like a React component boilterplate we use at Séntisis).
 
 #### Using non-code snippets
 The fun thing here is that I'm using it to answer some recruiters on Linkedin. They also use a template so... why not? You can even use a `placeholder`. That being said, I usually answer to everyone and in some cases (specially when I see that they actually took the time to get some info or read my blog) write a proper answer.
@@ -30,4 +30,3 @@ The fun thing here is that I'm using it to answer some recruiters on Linkedin. T
 
 
 Never settle.
-
