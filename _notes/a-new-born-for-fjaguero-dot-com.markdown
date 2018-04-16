@@ -1,6 +1,6 @@
 ---
 title: A new born for fjaguero.com
-date: 2018-04-16 22:51:00 Z
+date: 2013-10-26 13:44:00 Z
 ---
 
 After more than a year of the previous blog/design, I decided to change my home page to something [really simple](http://fjaguero.com).
