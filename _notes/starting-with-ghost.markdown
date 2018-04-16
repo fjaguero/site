@@ -7,6 +7,8 @@ A new adventure begins with **Ghost 0.3.2.**
 
 ![The Ghost Logo](http://tryghost.org/ghost.png)
 
+
+
 As a Wordpress developer it's great to see new approaches and participate on how online publishing evolves.
 
 ![Medium Logo](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*ZfH9RMk9gRwvqiLU.png)
