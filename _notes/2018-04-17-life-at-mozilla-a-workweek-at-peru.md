@@ -1,6 +1,6 @@
 ---
-title: "Life at Mozilla: A Workweek at Peru"
-date: 2018-04-16 01:15:49
+title: 'Life at Mozilla: A Workweek at Peru'
+date: 2018-04-16 01:15:49 Z
 ---
 
 *UPDATE - 08/05/2014 : The photos are not showing correctly. I will fix it ASAP.*

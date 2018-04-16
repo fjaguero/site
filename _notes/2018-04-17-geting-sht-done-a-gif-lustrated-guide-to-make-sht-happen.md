@@ -1,8 +1,10 @@
 ---
+title: Geting  Sh*t done - A GIF-lustrated guide to make sh*t happen
+date: 2018-04-16 01:15:49 Z
+tags:
+- Talks
+- Productivity
 layout: post
-title:  "Geting  Sh*t done - A GIF-lustrated guide to make sh*t happen"
-date:   2018-04-16 01:15:49
-tags:   Talks Productivity
 ---
 
 ![](/content/images/2016/03/sentisis-fjaguero-1.jpg)

@@ -1,8 +1,11 @@
 ---
+title: Using MutationObservers to build a simple extension
+date: 2018-04-16 01:15:49 Z
+tags:
+- Javascript
+- Github
+- Extension
 layout: post
-title:  "Using MutationObservers to build a simple extension"
-date:   2018-04-16 01:15:49
-tags:   Javascript Github Extension
 ---
 
 Have you ever have the need to _listen_ to DOM changes? I did. That's why I built a simple extension by using *Mutation Observers*. Let's get some context.

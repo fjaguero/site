@@ -1,10 +1,12 @@
 ---
+title: 'Story Cubes Tales #1: The Stolen Trident'
+date: 2018-04-16 01:15:49 Z
+tags:
+- Writing
+- Creativity
+- Story-Cubes
 layout: post
-title:  "Story Cubes Tales #1: The Stolen Trident"
-date:   2018-04-16 01:15:49
-tags:   Writing Creativity Story-Cubes
 ---
-
 
 ![Story 1 dices](/content/images/2016/06/story1.jpg)
 

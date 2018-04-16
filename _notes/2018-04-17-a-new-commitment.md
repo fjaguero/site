@@ -1,8 +1,9 @@
 ---
+title: A new commitment
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
 layout: post
-title:  "A new commitment"
-date:   2018-04-16 01:15:49
-tags:   Personal
 ---
 
 ![Writing](http://cl.ly/image/402b1i1c3t3U/writingbg.jpg)

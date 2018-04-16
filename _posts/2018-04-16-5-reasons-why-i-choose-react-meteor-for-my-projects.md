@@ -1,8 +1,11 @@
 ---
+title: 5 reasons why I choose React-Meteor for my projects
+date: 2018-04-16 01:15:49 Z
+tags:
+- Code
+- Meteor
+- React
 layout: post
-title:  "5 reasons why I choose React-Meteor for my projects"
-date:   2018-04-16 01:15:49
-tags:   Code Meteor React
 ---
 
 _This is a small summary of why I am really happy developing apps with Meteor and the react-meteor package._

@@ -1,8 +1,11 @@
 ---
+title: How I got a +150 days streak learning german on Duolingo
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
+- German
+- Learning
 layout: post
-title:  "How I got a +150 days streak learning german on Duolingo"
-date:   2018-04-16 01:15:49
-tags:   Personal German Learning
 ---
 
 ![Duolingo Profile](http://cl.ly/image/1j1y1F070S00/Image%202015-11-15%20at%202.02.30%20a.%20m..png)

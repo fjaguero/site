@@ -1,10 +1,11 @@
 ---
+title: Talk about Firefox OS at ATC2013
+date: 2018-04-16 01:15:49 Z
+tags:
+- Talks
+- Firefox-OS
 layout: post
-title:  "Talk about Firefox OS at ATC2013"
-date:   2018-04-16 01:15:49
-tags:   Talks Firefox-OS
 ---
-
 
 ![ATC Logo](http://www.eleventel.es/wp-content/uploads/2013/08/ATC-logo.png)
 

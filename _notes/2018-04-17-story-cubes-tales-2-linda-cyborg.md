@@ -1,8 +1,11 @@
 ---
+title: 'Story Cubes Tales #2: Linda, the cyborg'
+date: 2018-04-16 01:15:49 Z
+tags:
+- Creativity
+- Story-Cubes
+- Sci-Fi
 layout: post
-title:  "Story Cubes Tales #2: Linda, the cyborg"
-date:   2018-04-16 01:15:49
-tags:   Creativity Story-Cubes Sci-Fi
 ---
 
 ![Dices 2](/content/images/2016/06/story2.jpg)

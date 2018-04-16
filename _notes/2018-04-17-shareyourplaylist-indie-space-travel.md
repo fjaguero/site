@@ -1,8 +1,11 @@
 ---
+title: "#ShareYourPlaylist: Indie Space Travel"
+date: 2018-04-16 01:15:49 Z
+tags:
+- Music
+- Indie
+- Playlist
 layout: post
-title:  "#ShareYourPlaylist: Indie Space Travel"
-date:   2018-04-16 01:15:49
-tags:   Music Indie Playlist
 ---
 
 This weekend I wanted to share a little mix I did yesterday. A space trip over the indie scene.

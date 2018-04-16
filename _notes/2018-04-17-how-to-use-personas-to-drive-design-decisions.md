@@ -1,8 +1,9 @@
 ---
+title: How to use Personas to drive design decisions
+date: 2018-04-16 01:15:49 Z
+tags:
+- UX
 layout: post
-title:  "How to use Personas to drive design decisions"
-date:   2018-04-16 01:15:49
-tags:   UX
 ---
 
 Taking design decisions is not an easy task, specially if you and your team don’t have a clear vision about the early adopters and target users. Here is where Personas come to help. **We will be discussing what they are, how to build them and why they are important**.

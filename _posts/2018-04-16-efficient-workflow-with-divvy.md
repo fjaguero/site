@@ -1,8 +1,10 @@
 ---
+title: Efficient workflow with Divvy
+date: 2018-04-16 01:15:49 Z
+tags:
+- Tools
+- Productivity
 layout: post
-title:  "Efficient workflow with Divvy"
-date:   2018-04-16 01:15:49
-tags:   Tools Productivity
 ---
 
 ![Clock](http://f.cl.ly/items/0q0N3W1p3O0A0v0I3a3k/clock.jpg)

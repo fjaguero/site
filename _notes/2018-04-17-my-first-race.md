@@ -1,8 +1,11 @@
 ---
+title: My first race
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
+- Running
+- Achivements
 layout: post
-title:  "My first race"
-date:   2018-04-16 01:15:49
-tags:   Personal Running Achivements
 ---
 
 ![Alameda](http://cl.ly/image/2l1y3D0k3X1n/3542051433_806b3e40b0_o.jpg)

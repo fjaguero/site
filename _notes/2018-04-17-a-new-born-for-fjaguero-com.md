@@ -1,8 +1,9 @@
 ---
+title: A new born for fjaguero.com
+date: 2018-04-16 01:15:49 Z
+tags:
+- Personal
 layout: post
-title:  "A new born for fjaguero.com"
-date:   2018-04-16 01:15:49
-tags:   Personal
 ---
 
 After more than a year of the previous blog/design, I decided to change my home page to something [really simple](http://fjaguero.com).
