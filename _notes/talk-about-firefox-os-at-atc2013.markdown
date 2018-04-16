@@ -1,6 +1,6 @@
 ---
 title: Talk about Firefox OS at ATC2013
-date: 2018-04-16 22:47:00 Z
+date: 2013-10-24 22:47:00 Z
 ---
 
 
