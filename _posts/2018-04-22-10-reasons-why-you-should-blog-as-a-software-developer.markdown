@@ -6,9 +6,7 @@ tags:
 - development
 ---
 
-## My experience after 9 months of our company publication
-
-![](https://cdn-images-1.medium.com/max/10430/1\*Dpn__rQ32LEqE5qZSu2xOw.jpeg)
+### My experience after 9 months of our company publication
 
 At Séntisis, we started this blog at the beginning of the year after a long discussion about *the how* and *the why* of writing as developers and \*shipmates. \*Many companies would say that they don’t have “enough time” to write or even that is not worth the effort.
 
@@ -56,4 +54,4 @@ As developers, we save a lot of time by using open source projects. Most of us d
 
 You have reached the end of the article. Now it’s your time to start writing! I want to invite you to write the last point. Maybe this is your first post or just a reason to bring back the writing habit. Maybe you can start a [daily journal](https://medium.com/the-mission/why-keeping-a-daily-journal-could-change-your-life-b9421a69912a). **Are you in?**
 
-*Published in the [Building Lang.ai](http://building.lang.ai) publication. *
+\*Published in the [Building Lang.ai](http://building.lang.ai) publication. \*
