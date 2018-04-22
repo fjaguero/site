@@ -4,9 +4,72 @@
     <title>Fernando Agüero</title>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Apr 2018 16:23:01 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Apr 2018 16:23:01 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Apr 2018 21:42:44 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Apr 2018 21:42:44 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>10 reasons why you should blog as a software developer</title>
+        <description>&lt;h3 id=&quot;my-experience-after-9-months-of-our-company-publication&quot;&gt;My experience after 9 months of our company publication&lt;/h3&gt;
+
+&lt;p&gt;At Séntisis, we started this blog at the beginning of the year after a long discussion about &lt;em&gt;the how&lt;/em&gt; and &lt;em&gt;the why&lt;/em&gt; of writing as developers and *shipmates. *Many companies would say that they don’t have “enough time” to write or even that is not worth the effort.&lt;/p&gt;
+
+&lt;p&gt;After 9 months with the blog, we can confirm that the effort is worth it, both internal and externally. Internally, we learned a lot in the process of writing technical articles. It helped us to keep iterating our &lt;a href=&quot;https://building.sentisis.com/how-we-keep-track-of-our-development-goals-dfda5a33bf4b&quot;&gt;work methodologies&lt;/a&gt; and our &lt;a href=&quot;https://building.sentisis.com/building-our-engineering-culture-20c2cd7181dc?source=---------2----------------&quot;&gt;engineering culture&lt;/a&gt;. It’s even a place where we can go and share &lt;a href=&quot;https://building.sentisis.com/how-to-avoid-making-the-same-mistakes-over-and-over-f55373442810&quot;&gt;our experiences&lt;/a&gt; and learnings to become a better teammate. On the external point of view, we are happy to give back to the community. Building developer audience it’s a good move in terms of marketing and brand awareness.&lt;/p&gt;
+
+&lt;p&gt;This is a list of reasons why I think it’s a &lt;em&gt;great&lt;/em&gt; idea to blog as a solo developer or to even build a publication for your company:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-learn-by-teaching&quot;&gt;1. Learn by teaching&lt;/h3&gt;
+
+&lt;p&gt;The first and most important point of all. It may look obvious but it’s not. A practical example is &lt;a href=&quot;https://building.sentisis.com/our-journey-from-websockets-to-http-2-4d069c54effd&quot;&gt;an article&lt;/a&gt; from my teammate &lt;a href=&quot;https://building.sentisis.com/@milingo&quot;&gt;Miguel&lt;/a&gt;. He started working on a PoC about network protocols for a migration we planned. He already knew most of the underlying pro and cons of each choice, but he decided to write an article about that. As you need to order and explain ideas, you become forced to understand them enough so you can explain them in a way that is easy for everyone to understand. He ended up learning a lot.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-document-your-progress&quot;&gt;2. Document your progress&lt;/h3&gt;
+
+&lt;p&gt;Writing about what you achieved is like doing a public *post-mortem *but without bad things happening. Documenting the progress in a company is great for the current and future employees, as they can quickly see how a feature or a system evolved. It gives positive feedback on the team as everyone is more aware on how their work progresses. We already did that when moving &lt;a href=&quot;https://building.sentisis.com/how-to-build-emails-with-react-fcf941b125d1&quot;&gt;our e-mails to React&lt;/a&gt; or when &lt;a href=&quot;https://building.sentisis.com/embracing-the-power-of-styled-components-7b79a166c01b&quot;&gt;we migrated our component styles&lt;/a&gt; to styled-components.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-get-better-at-communicating&quot;&gt;3. Get better at communicating&lt;/h3&gt;
+
+&lt;p&gt;Communicating in a team is important. Nowadays many people work remotely or communicate in an async fashion, spending even more time writing than actually speaking. Don’t forget that by coding you are also &lt;em&gt;communicating&lt;/em&gt; ideas and explaining what is happening. I know many programmers that claim that writing articles even help them to write better code.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-develop-your-analytical-skills&quot;&gt;4. Develop your analytical skills&lt;/h3&gt;
+
+&lt;p&gt;Writing means organization. When you are going to start an article, you usually think in a linear (sequential) and a non-linear (creative) way. It’s like taking a piece of paper and explaining your teammate how a new feature is going to work. By writing regularly you will stop panicking when something goes wrong and start analyzing the situation more calmly, organizing the possible solutions and encouraging others to do so.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-come-up-with-new-ideas&quot;&gt;5. Come up with new ideas&lt;/h3&gt;
+
+&lt;p&gt;After you spent hours researching and writing about a topic, it’s likely that you will start seeing things from a different point of view. Even at the time of writing an article you will come up with new ideas of what to share or even a new way to solve the problem you are describing.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-remove-stress&quot;&gt;6. Remove stress&lt;/h3&gt;
+
+&lt;p&gt;Give yourself time to disconnect from the daily routine of e-mails and JIRA tickets. Writing allows you to close the inbox, put some music, grab a coffee and start being along with your thoughts. It shouldn’t be a hard process for your brain. I recommend you to first just &lt;em&gt;vomit&lt;/em&gt; what you are thinking and then start fixing the style and reorder the content. That way you will be even less stressed by thinking about writing an article.&lt;/p&gt;
+
+&lt;h3 id=&quot;7-build-an-audience&quot;&gt;7. Build an audience&lt;/h3&gt;
+
+&lt;p&gt;You will get different benefits regarding audience. In the business side, having a technical blog is great to bring transparency to the team. This may even help possible candidates to choose your company. On a more personal side, it will help you build your career. Combine it with giving talks in events and you will get a solid foundation.&lt;/p&gt;
+
+&lt;h3 id=&quot;8-inspire-others&quot;&gt;8. Inspire others&lt;/h3&gt;
+
+&lt;p&gt;When you write about your choices and how you like to do things, you are inspiring others to go one step further and improve. Look at the twitter account of some of the biggest development evangelist from Facebook or Google to see the impact of their messages on the whole community. You don’t need to have thousands of followers to inspire a reader that was passing by and will start a new technique after reading one of your articles.&lt;/p&gt;
+
+&lt;h3 id=&quot;9-give-back-to-the-community&quot;&gt;9. Give back to the community&lt;/h3&gt;
+
+&lt;p&gt;As developers, we save a lot of time by using open source projects. Most of us don’t spend much time by helping this projects or building new ones. Writing for the development community is also another way to bring back the value we are taking for free. We bring back knowledge and experiences that eventually may save a lot of time for others. You don’t have to be a senior developer. Even if you are a junior developer, writing about your findings and how you solved your problems will help others like you. Don’t think that a topic or a post &lt;em&gt;doesn’t make sense&lt;/em&gt; just because is not advanced.&lt;/p&gt;
+
+&lt;h3 id=&quot;10--fill-your-reason-here-&quot;&gt;&lt;strong&gt;10. [ Fill your reason here ]&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;You have reached the end of the article. Now it’s your time to start writing! I want to invite you to write the last point. Maybe this is your first post or just a reason to bring back the writing habit. Maybe you can start a &lt;a href=&quot;https://medium.com/the-mission/why-keeping-a-daily-journal-could-change-your-life-b9421a69912a&quot;&gt;daily journal&lt;/a&gt;. &lt;strong&gt;Are you in?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;*Published in the &lt;a href=&quot;http://building.lang.ai&quot;&gt;Building Lang.ai&lt;/a&gt; publication. *&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Apr 2018 16:28:00 +0000</pubDate>
+        <link>http://localhost:4000/posts/10-reasons-why-you-should-blog-as-a-software-developer/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/10-reasons-why-you-should-blog-as-a-software-developer/</guid>
+        
+        <category>blogging</category>
+        
+        <category>development</category>
+        
+        
+      </item>
     
   </channel>
 </rss>
