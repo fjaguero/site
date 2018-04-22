@@ -21,7 +21,7 @@ I’ve been involved in the [Mozilla Hispano](https://www.mozilla-hispano.org/do
 
 *Languages*
 
-Since September 2017 I've been organizing the Duolingo Spanish and English meetups in Madrid. Now I'm a Global Ambassador, helping to get Madrid to be the first city to have Duolingo language meetups in the top six languages.
+Since September 2017 I've been organizing the [Duolingo Spanish and English meetups](http://events.duolingo.com/madrid/) in Madrid. Now I'm a Global Ambassador, helping to get Madrid to be the first city to have Duolingo language meetups in the top six languages.
 
 ## Learning
 
