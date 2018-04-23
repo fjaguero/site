@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>10 reasons why you should blog as a software developer</title>
+  <meta name="description" content="Fernando Agüero is a Technical Product Manager, currently working at Lang.ai">
+
+  <style>
+  /**
+   * Reset some basic elements
+   */
+  body, h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre, hr,
+  dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0; }
+
+  /**
+   * Basic styling
+   */
+  body {
+    font: 300 16px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal; }
+
+  /**
+   * Set `margin-bottom` to maintain vertical rhythm
+   */
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre,
+  ul, ol, dl, figure {
+    margin-bottom: 15px; }
+
+  /**
+   * Images
+   */
+  img {
+    max-width: 100%;
+    vertical-align: middle; }
+
+  /**
+   * Figures
+   */
+  figure > img {
+    display: block; }
+
+  figcaption {
+    font-size: 14px; }
+
+  /**
+   * Lists
+   */
+  ul, ol {
+    margin-left: 30px; }
+
+  li > ul,
+  li > ol {
+    margin-bottom: 0; }
+
+  /**
+   * Headings
+   */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300; }
+
+  /**
+   * Links
+   */
+  a {
+    color: #2a7ae2;
+    text-decoration: none; }
+    a:visited {
+      color: #1d6dd5; }
+    a:hover {
+      text-decoration: underline; }
+
+  /**
+   * Blockquotes
+   */
+  blockquote {
+    color: #828282;
+    border-left: 4px solid #e8e8e8;
+    padding-left: 15px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic; }
+    blockquote > :last-child {
+      margin-bottom: 0; }
+
+  /**
+   * Code formatting
+   */
+  pre,
+  code {
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #eef; }
+
+  code {
+    padding: 1px 5px; }
+
+  pre {
+    padding: 8px 12px;
+    overflow-x: auto; }
+    pre > code {
+      border: 0;
+      padding-right: 0;
+      padding-left: 0; }
+
+  /**
+   * Wrapper
+   */
+  .wrapper {
+    max-width: -webkit-calc(800px - (30px * 2));
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px; }
+    @media screen and (max-width: 800px) {
+      .wrapper {
+        max-width: -webkit-calc(800px - (30px));
+        max-width: calc(800px - (30px));
+        padding-right: 15px;
+        padding-left: 15px; } }
+
+  /**
+   * Clearfix
+   */
+  .wrapper:after, .footer-col-wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+  /**
+   * Icons
+   */
+  .icon > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle; }
+    .icon > svg path {
+      fill: #828282; }
+
+  /**
+   * Site header
+   */
+  .site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 56px;
+    position: relative; }
+
+  .site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left; }
+    .site-title, .site-title:visited {
+      color: #424242; }
+
+  .site-nav {
+    float: right;
+    line-height: 56px; }
+    .site-nav .menu-icon {
+      display: none; }
+    .site-nav .page-link {
+      color: #111;
+      line-height: 1.5; }
+      .site-nav .page-link:not(:last-child) {
+        margin-right: 20px; }
+    @media screen and (max-width: 600px) {
+      .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: right; }
+        .site-nav .menu-icon {
+          display: block;
+          float: right;
+          width: 36px;
+          height: 26px;
+          line-height: 0;
+          padding-top: 10px;
+          text-align: center; }
+          .site-nav .menu-icon > svg {
+            width: 18px;
+            height: 15px; }
+            .site-nav .menu-icon > svg path {
+              fill: #424242; }
+        .site-nav .trigger {
+          clear: both;
+          display: none; }
+        .site-nav:hover .trigger {
+          display: block;
+          padding-bottom: 5px; }
+        .site-nav .page-link {
+          display: block;
+          padding: 5px 10px;
+          margin-left: 20px; }
+          .site-nav .page-link:not(:last-child) {
+            margin-right: 0; } }
+
+  /**
+   * Site footer
+   */
+  .site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0; }
+    .site-footer ul {
+      margin-left: 0; }
+    .site-footer li {
+      display: inline-block;
+      text-decoration: none;
+      padding-right: 10px; }
+      .site-footer li a {
+        color: #bdbdbd; }
+
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px; }
+
+  .contact-list,
+  .social-media-list {
+    list-style: none;
+    margin-left: 0; }
+
+  .footer-col-wrapper {
+    font-size: 15px;
+    color: #828282;
+    margin-left: -15px; }
+
+  .footer-col {
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 15px; }
+
+  .footer-col-1 {
+    width: -webkit-calc(35% - (30px / 2));
+    width: calc(35% - (30px / 2)); }
+
+  .footer-col-2 {
+    width: -webkit-calc(20% - (30px / 2));
+    width: calc(20% - (30px / 2)); }
+
+  .footer-col-3 {
+    width: -webkit-calc(45% - (30px / 2));
+    width: calc(45% - (30px / 2)); }
+
+  @media screen and (max-width: 800px) {
+    .footer-col-1,
+    .footer-col-2 {
+      width: -webkit-calc(50% - (30px / 2));
+      width: calc(50% - (30px / 2)); }
+
+    .footer-col-3 {
+      width: -webkit-calc(100% - (30px / 2));
+      width: calc(100% - (30px / 2)); } }
+  @media screen and (max-width: 600px) {
+    .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (30px / 2));
+      width: calc(100% - (30px / 2)); } }
+  /**
+   * Page content
+   */
+  .intro-wrapper {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #EEE; }
+
+  .link {
+    text-decoration: underline;
+    text-decoration-style: dotted; }
+
+  .page-intro {
+    margin: .3em 0;
+    font-family: 'Merriweather',serif;
+    font-size: 52px;
+    line-height: 1.25em;
+    font-weight: 700; }
+
+  .subtitle {
+    font-family: 'Merriweather',serif;
+    font-weight: 300; }
+    .subtitle a {
+      color: #111; }
+
+  .page-content {
+    padding: 30px 0; }
+
+  .page-heading {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Merriweather'; }
+
+  .post-list {
+    margin-left: 0;
+    list-style: none; }
+    .post-list > li {
+      margin-bottom: 30px; }
+
+  .post-meta {
+    font-size: 14px;
+    color: #828282;
+    display: inline-block; }
+
+  .post-link {
+    display: block;
+    font-size: 24px; }
+
+  /**
+   * Posts
+   */
+  .post-header {
+    margin-bottom: 30px; }
+
+  .post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1; }
+    @media screen and (max-width: 800px) {
+      .post-title {
+        font-size: 36px; } }
+
+  .post-content {
+    margin-bottom: 30px; }
+    .post-content h2 {
+      font-size: 32px; }
+      @media screen and (max-width: 800px) {
+        .post-content h2 {
+          font-size: 28px; } }
+    .post-content h3 {
+      font-size: 26px; }
+      @media screen and (max-width: 800px) {
+        .post-content h3 {
+          font-size: 22px; } }
+    .post-content h4 {
+      font-size: 20px; }
+      @media screen and (max-width: 800px) {
+        .post-content h4 {
+          font-size: 18px; } }
+  </style>
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/10-reasons-why-you-should-blog-as-a-software-developer/">
+  <link rel="alternate" type="application/rss+xml" title="Fernando Agüero" href="http://localhost:4000/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Open+Sans" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Fernando Agüero</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About me</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="page-link" href="/posts">Posts</a>
+          <a class="page-link" href="/notes">Notes</a>
+          <a class="page-link" href="/bookmarks">Bookmarks</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">10 reasons why you should blog as a software developer</h1>
+    <p class="post-meta"><time datetime="2018-04-22T16:28:00+00:00" itemprop="datePublished">Apr 22, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="my-experience-after-9-months-of-our-company-publication">My experience after 9 months of our company publication</h3>
+
+<p>At Séntisis, we started this blog at the beginning of the year after a long discussion about <em>the how</em> and <em>the why</em> of writing as developers and *shipmates. *Many companies would say that they don’t have “enough time” to write or even that is not worth the effort.</p>
+
+<p>After 9 months with the blog, we can confirm that the effort is worth it, both internal and externally. Internally, we learned a lot in the process of writing technical articles. It helped us to keep iterating our <a href="https://building.sentisis.com/how-we-keep-track-of-our-development-goals-dfda5a33bf4b">work methodologies</a> and our <a href="https://building.sentisis.com/building-our-engineering-culture-20c2cd7181dc?source=---------2----------------">engineering culture</a>. It’s even a place where we can go and share <a href="https://building.sentisis.com/how-to-avoid-making-the-same-mistakes-over-and-over-f55373442810">our experiences</a> and learnings to become a better teammate. On the external point of view, we are happy to give back to the community. Building developer audience it’s a good move in terms of marketing and brand awareness.</p>
+
+<p>This is a list of reasons why I think it’s a <em>great</em> idea to blog as a solo developer or to even build a publication for your company:</p>
+
+<h3 id="1-learn-by-teaching">1. Learn by teaching</h3>
+
+<p>The first and most important point of all. It may look obvious but it’s not. A practical example is <a href="https://building.sentisis.com/our-journey-from-websockets-to-http-2-4d069c54effd">an article</a> from my teammate <a href="https://building.sentisis.com/@milingo">Miguel</a>. He started working on a PoC about network protocols for a migration we planned. He already knew most of the underlying pro and cons of each choice, but he decided to write an article about that. As you need to order and explain ideas, you become forced to understand them enough so you can explain them in a way that is easy for everyone to understand. He ended up learning a lot.</p>
+
+<h3 id="2-document-your-progress">2. Document your progress</h3>
+
+<p>Writing about what you achieved is like doing a public *post-mortem *but without bad things happening. Documenting the progress in a company is great for the current and future employees, as they can quickly see how a feature or a system evolved. It gives positive feedback on the team as everyone is more aware on how their work progresses. We already did that when moving <a href="https://building.sentisis.com/how-to-build-emails-with-react-fcf941b125d1">our e-mails to React</a> or when <a href="https://building.sentisis.com/embracing-the-power-of-styled-components-7b79a166c01b">we migrated our component styles</a> to styled-components.</p>
+
+<h3 id="3-get-better-at-communicating">3. Get better at communicating</h3>
+
+<p>Communicating in a team is important. Nowadays many people work remotely or communicate in an async fashion, spending even more time writing than actually speaking. Don’t forget that by coding you are also <em>communicating</em> ideas and explaining what is happening. I know many programmers that claim that writing articles even help them to write better code.</p>
+
+<h3 id="4-develop-your-analytical-skills">4. Develop your analytical skills</h3>
+
+<p>Writing means organization. When you are going to start an article, you usually think in a linear (sequential) and a non-linear (creative) way. It’s like taking a piece of paper and explaining your teammate how a new feature is going to work. By writing regularly you will stop panicking when something goes wrong and start analyzing the situation more calmly, organizing the possible solutions and encouraging others to do so.</p>
+
+<h3 id="5-come-up-with-new-ideas">5. Come up with new ideas</h3>
+
+<p>After you spent hours researching and writing about a topic, it’s likely that you will start seeing things from a different point of view. Even at the time of writing an article you will come up with new ideas of what to share or even a new way to solve the problem you are describing.</p>
+
+<h3 id="6-remove-stress">6. Remove stress</h3>
+
+<p>Give yourself time to disconnect from the daily routine of e-mails and JIRA tickets. Writing allows you to close the inbox, put some music, grab a coffee and start being along with your thoughts. It shouldn’t be a hard process for your brain. I recommend you to first just <em>vomit</em> what you are thinking and then start fixing the style and reorder the content. That way you will be even less stressed by thinking about writing an article.</p>
+
+<h3 id="7-build-an-audience">7. Build an audience</h3>
+
+<p>You will get different benefits regarding audience. In the business side, having a technical blog is great to bring transparency to the team. This may even help possible candidates to choose your company. On a more personal side, it will help you build your career. Combine it with giving talks in events and you will get a solid foundation.</p>
+
+<h3 id="8-inspire-others">8. Inspire others</h3>
+
+<p>When you write about your choices and how you like to do things, you are inspiring others to go one step further and improve. Look at the twitter account of some of the biggest development evangelist from Facebook or Google to see the impact of their messages on the whole community. You don’t need to have thousands of followers to inspire a reader that was passing by and will start a new technique after reading one of your articles.</p>
+
+<h3 id="9-give-back-to-the-community">9. Give back to the community</h3>
+
+<p>As developers, we save a lot of time by using open source projects. Most of us don’t spend much time by helping this projects or building new ones. Writing for the development community is also another way to bring back the value we are taking for free. We bring back knowledge and experiences that eventually may save a lot of time for others. You don’t have to be a senior developer. Even if you are a junior developer, writing about your findings and how you solved your problems will help others like you. Don’t think that a topic or a post <em>doesn’t make sense</em> just because is not advanced.</p>
+
+<h3 id="10--fill-your-reason-here-"><strong>10. [ Fill your reason here ]</strong></h3>
+
+<p>You have reached the end of the article. Now it’s your time to start writing! I want to invite you to write the last point. Maybe this is your first post or just a reason to bring back the writing habit. Maybe you can start a <a href="https://medium.com/the-mission/why-keeping-a-daily-journal-could-change-your-life-b9421a69912a">daily journal</a>. <strong>Are you in?</strong></p>
+
+<p>*Published in the <a href="http://building.lang.ai">Building Lang.ai</a> publication. *</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul>
+      <li>
+        <a href="https://medium.com/@fjaguero">Medium</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/@fjaguero">Twitter</a>
+      </li>
+      <li>
+        <a href="http://github.com/fjaguero">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn">LinkedIn</a>
+      </li>
+    </ul>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
