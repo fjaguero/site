@@ -1,5 +1,5 @@
 ---
-title: Moving to Cloudflare + Github Pages
+title: Moving to Github Pages & Cloudflare
 date: 2018-06-04 22:21:00 Z
 tags:
 - hosting
