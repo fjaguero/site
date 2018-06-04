@@ -5,7 +5,7 @@ tags:
 - hosting
 ---
 
-This week I have been moving all my published sites to Github Pages. First of all, now I am able to stop my 5$ Digital Ocean droplet. I used it for other services that required backend, but now it was only an Nginx serving multiple sites.
+This week I have been moving all my published sites to Github Pages. First of all, now I am able to stop my $5 Digital Ocean droplet. I used it for other services that required backend, but now it was only an Nginx serving multiple sites.
 
 ![cloudflare.png](/uploads/cloudflare.png)
 
