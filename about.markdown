@@ -17,7 +17,7 @@ I started [ValenciaJS](https://medium.com/the-web-is-the-platform/introducing-va
 
 *The Web*
 
-I’ve been involved in the [Mozilla Hispano](https://www.mozilla-hispano.org/documentacion/Usuario:Fjaguero) community for almost 5 years now, helping to promote openness, innovation & opportunity on the Web. I gave talks in Argentina, Spain, Peru and Poland related to Mozilla.
+I’ve been involved in the [Mozilla Hispano](https://www.mozilla-hispano.org/documentacion/Usuario:Fjaguero) community for almost 5 years now, helping to promote openness, innovation & opportunity on the Web. I gave talks in Argentina, Spain, Peru and Poland related to Mozilla. I'm proud [to be part](https://www.mozilla.org/credits/) of the hundreds of contributors that have made a significant investment of to make the world a little bit better.
 
 *Languages*
 
