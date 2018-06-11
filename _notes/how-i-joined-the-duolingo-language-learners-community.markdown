@@ -1,5 +1,5 @@
 ---
-title: How I joined the Duolingo language learners community
+title: How I joined the Duolingo Ambassadors community
 date: 2018-06-11 22:29:00 Z
 categories:
 - biography
