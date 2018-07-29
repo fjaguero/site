@@ -35,7 +35,7 @@ At the time of writing, [Madrid](https://events.duolingo.com/madrid/) has the fo
 
 ## Next steps
 
-A great thing is happening next week. We will be sharing the [Duolingo movie](duolingomovie.com) "Something like Home" with all the event participants to celebrate the World Refugee Day. We will also be having a discussion on the topic.
+A great thing is happening next week. We will be sharing the Duolingo movie ["Something Like Home"](http://duolingomovie.com) with all the event participants to celebrate the World Refugee Day. We will also be having a discussion on the topic.
 
 ![Poster - Horizontal.png](/uploads/Poster%20-%20Horizontal.png)
 
