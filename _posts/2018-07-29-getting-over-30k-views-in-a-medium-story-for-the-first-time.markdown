@@ -21,9 +21,12 @@ Once we got the data, I spent some time during the next following 3 days to anal
 
 After publishing it, our long-time reddit user and coworker, Alberto Restifo, [shared i](https://www.reddit.com/r/programming/comments/8qh6h5/we_analyzed_the_github_issues_from_the_most/?st=jk7e1ekx&sh=e830ebbd)t on /r/programming. The discussion exploded. That day the article got dozens of shares on twitter. It was followed by newsletters from all around the world sharing it. All that being said, the main referres are these ones:
 
+-
+
 ![article-refferers.png](/uploads/article-refferers.png)
 
 *Referrers from the story*
+-
 
 Note that impact of Mediums network power. We also see multiple blogs that are hosted on Medium as a source of more than 1k views. This is probably due to the *related articles* that are shown at the bottom of the stories.
 
