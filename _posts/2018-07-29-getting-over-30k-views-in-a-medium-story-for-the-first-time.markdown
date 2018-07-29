@@ -6,7 +6,7 @@ tags:
 - lang.ai
 ---
 
-[![article-1.png](/uploads/article-1.png)](https://building.lang.ai/we-analyzed-the-github-issues-from-the-most-popular-front-end-frameworks-heres-what-we-found-c3491b26ec95)
+![article-1.png](/uploads/article-1.png)
 
 *Screenshot from Medium*
 
@@ -23,7 +23,7 @@ After publishing it, our long-time reddit user and coworker, Alberto Restifo, [s
 
 ![article-refferers.png](/uploads/article-refferers.png)
 
-*Refferers from the story*
+*Referrers from the story*
 
 Note that impact of Mediums network power. We also see multiple blogs that are hosted on Medium as a source of more than 1k views. This is probably due to the *related articles* that are shown at the bottom of the stories.
 
