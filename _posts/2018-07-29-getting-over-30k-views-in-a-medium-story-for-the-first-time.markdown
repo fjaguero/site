@@ -6,7 +6,7 @@ tags:
 - lang.ai
 ---
 
-![article-1.png](/uploads/article-1.png)
+[![article-1.png](/uploads/article-1.png)](https://building.lang.ai/we-analyzed-the-github-issues-from-the-most-popular-front-end-frameworks-heres-what-we-found-c3491b26ec95)
 
 *Screenshot from Medium*
 
