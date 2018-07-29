@@ -27,7 +27,9 @@ After four events, we mixed both chapters and started with the Language Exchange
 
 Once the Events program was ready to get out of beta, the Duolingo team decided to experiment by empowering some special cities to have events every week. This can be done by having language chapters from the main learned languages: Spanish, English, German, French, and Portuguese.
 
-The team decided to select Washington D.C and Madrid to test the idea. I officially worked for them during a month and a half, getting in touch with local language groups from Madrid and, eventually, the main cities from Spain. At the time of writing, [Madrid](https://events.duolingo.com/madrid/) has the following groups:
+The team decided to select Washington D.C and Madrid to test the idea. I officially worked for them during a month and a half, getting in touch with local language groups from Madrid and, eventually, the main cities from Spain.
+
+At the time of writing, [Madrid](https://events.duolingo.com/madrid/) has the following groups:
 
 ![duolingo-madrid.png](/uploads/duolingo-madrid.png)
 
