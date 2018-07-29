@@ -1,5 +1,5 @@
 ---
-title: Getting over 30k views in a Medium article for the first time
+title: Getting over 30k views in a Medium story for the first time
 date: 2018-07-29 22:23:00 Z
 tags:
 - writing
@@ -13,6 +13,7 @@ tags:
 This week, [the article](https://building.lang.ai/we-analyzed-the-github-issues-from-the-most-popular-front-end-frameworks-heres-what-we-found-c3491b26ec95) I wrote along with [Enrique Fueyo](http://twitter.com/efueyor) for our ["Building Lang.ai"](http://building.lang.ai) publication is getting 30k views. It's one of our most-viewed articles, followed by ["Our journey from WebSockets to HTTP/2"](https://building.lang.ai/our-journey-from-websockets-to-http-2-4d069c54effd) (10k) and ["Embracing the power of styled-components"](https://building.lang.ai/embracing-the-power-of-styled-components-7b79a166c01b) (7.3k).
 
 ![article-metrics.png](/uploads/article-metrics.png)
+*Metrics from the story*
 
 It started as an idea from Enrique, based on using the power of our Lang.ai technology to understand language, but focusing on a technical discussion instead of socia media comments, surveys or legal documents.
 
@@ -22,10 +23,12 @@ After publishing it, our long-time reddit user and coworker, Alberto Restifo, [s
 
 ![article-refferers.png](/uploads/article-refferers.png)
 
+*Refferers from the story*
+
 Note that impact of Mediums network power. We also see multiple blogs that are hosted on Medium as a source of more than 1k views. This is probably due to the *related articles* that are shown at the bottom of the stories.
 
 At Lang.ai, we are currently working in three lines of content with a differente audience. We write about engineering, data science, and our company culture (how we do things). Regarding data science, the content is split into entry-level and more advanced topics. Each line have their own impact and objective.
 
 ### Conclusion
-Spending time in **quality content** is always a good strategy. Aim for less but better content. There is so much published every day that is critical to generate something worth reading for your audience.
 
+Spending time in **quality content** is always a good strategy. Aim for less but better content. There is so much published every day that is critical to generate something worth reading for your audience.
