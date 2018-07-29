@@ -3,6 +3,8 @@ title: About me
 date: 2018-04-14 21:19:00 Z
 ---
 
+![banner.jpg](/uploads/banner.jpg)
+
 I work as a Technical Product Manager at [Lang.ai](https://lang.ai), a platform to enable the next generation of NLP products and applications. You can learn more about my work experience in my [LinkedIn profile](https://www.linkedin.com/in/fjaguero/).
 
 ## Writing
