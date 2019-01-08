@@ -11,7 +11,17 @@ This is the second time I publish my annual review.
 # 1. What went well this year?
 
 - Being able to get close to the family and friends
+
+This year I managed to travel to Argentina, where most of my family leaves, and to Asturias, where one of my brother lives since last year. The last time I visited Argentina was in 2012, travelling with the Mozilla community. 
+
+I spent time with all my family and travelled to Tigre with my older and smaller brothers. It is pretty intense to see your grandmothers again after so many years.
+
 - Moved to a TPM role (including first talk as a PM)
+
+The
+
+
+
 - Learned how to use music production software
 - Stopped cheating on some habits
 - Dedicated more meaningful time to my partner
