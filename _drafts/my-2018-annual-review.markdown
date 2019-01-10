@@ -6,7 +6,6 @@ tags:
 - personal
 ---
 
-777
 
 This is the second time I publish my annual review.
 
