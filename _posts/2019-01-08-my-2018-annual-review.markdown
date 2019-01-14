@@ -8,7 +8,7 @@ tags:
 
 # My 2018 Annual Review
 
-Following the format from James Clear's webiste, this is my reflection from my previous year. 
+Following the format from James Clear's webiste, this is my reflection from my previous year.
 
 # 1. What went well this year?
 
@@ -53,8 +53,6 @@ Doing sports was not an issue this last year. Thanks to a coworker, I have been 
 Changing were we live was the change that had most impact in my life. I have been living with my partner in the city center of Madrid for more than two years. This summer we moved outside of it to a more residential area. Now the flat is almost as twice as big, giving us space and thus a better environment to reinforce or maintain new habits. As an example, Shei has a room where she streams on Twitch. I use another room when working from home. That room is mentally linked with a state of focus, that’s why I also use it when writing or working with Ableton Live.
 
 We also automated other tasks, include the typical efforts of cleaning. The dishwasher and the cleaning robot help a lot. Having a proper kitchen space also helps to improve the habit of cooking healthy meals at home.
-
-—> Divide into family, work, health, love, quality of life, honesty, productivity (better organization, alarm clock)
 
 # 2. What didn’t go so well?
 
