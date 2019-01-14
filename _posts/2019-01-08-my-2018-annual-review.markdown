@@ -80,13 +80,13 @@ Stopping the planning caused some issues on my finances. I spent more than I sho
 
 **Managing expectations and deadlines.** My new role forced me to improve my capacity to manage my own and other’s expectations. I learned to be -more- pessimistic/conservative when setting deadlines and milestones. I know that things always may go wrong and always take more time than expected (at least 1.5x more), but now I externalize that and communicate with my team to be on the same page.
 
-\*\*Leadership. \*\* It’s been a wild year at Lang.ai. A lot of pressure and a lot of achievements.  I spend every single month trying to improve how to help my team get their best themselves. I learned a lot from mistakes I did, specifically related with communication. In case of doubt, over communicate instead of doing the opposite.
+**Leadership.** It’s been a wild year at Lang.ai. A lot of pressure and a lot of achievements.  I spend every single month trying to improve how to help my team get their best themselves. I learned a lot from mistakes I did, specifically related with communication. In case of doubt, over communicate instead of doing the opposite.
 
 **Focus on the essentials.** In more general terms and as I recently read somewhere, in times when you are not sure if you are focusing on the correct thing, focus on the essentials: health, love, learning. If you are being healthy, spending time with your loved ones, and continually learning, the other stuff most likely can wait.
 
 In terms of working, focusing on the essentials means spending more time in less things while not losing the focus on your “one thing”. In my case, I spent a lot of time focusing on making our enterprise product stable. I didn’t make sense to add more functionalities if the core product wasn’t good enough.
 
-\*\* Protecting my time\*\*. This year I learned a lot on how important is to prevent you or others take your time or distract you. It’s not only how productive or how good your Pomodoro technique is working. A day has more hours. I am now more aware of how “busy” I am at the office, while I usually get more deep work done at home. That’s actually another story to be told.
+** Protecting my time.** This year I learned a lot on how important is to prevent you or others take your time or distract you. It’s not only how productive or how good your Pomodoro technique is working. A day has more hours. I am now more aware of how “busy” I am at the office, while I usually get more deep work done at home. That’s actually another story to be told.
 
 # 2018 in music
 
