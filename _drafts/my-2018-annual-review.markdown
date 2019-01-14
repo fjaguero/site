@@ -83,6 +83,10 @@ I like to analyze my musical habits and how it evolves from year to year.
 
 ![lastfm-2018.png](/uploads/lastfm-2018.png)
 
+![topalbums-2018.png](/uploads/topalbums-2018.png)
+
+![mainstream-2018.png](/uploads/mainstream-2018.png)
+
 Most listened artists:
 
 Most listened albums:
