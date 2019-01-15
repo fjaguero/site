@@ -8,9 +8,9 @@ tags:
 
 Following the format from James Clear's webiste, this is my reflection from my previous year.
 
-# 1. What went well this year?
+## 1. What went well this year?
 
-## Being able to get close to the family and friends
+# Being able to get close to the family and friends
 
 This year I managed to travel to Argentina, where most of my family lives, and to Asturias, where one of my brother lives since last year. The last time I visited Argentina was in 2012, traveling with the Mozilla community.
 
