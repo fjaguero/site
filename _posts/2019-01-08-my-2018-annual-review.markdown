@@ -66,15 +66,9 @@ In terms of working, focusing on the essentials means spending more time in less
 
 # 2018 in music
 
-I like to analyze my musical habits and how it evolves from year to year.
+I like to analyze my musical habits and how it evolves from year to year. This year my most-listened artist was Carpenter Brut. I was lucky to see them live in Madrid!
 
 ![lastfm-2018.png](/uploads/lastfm-2018.png)
-
-![topalbums-2018.png](/uploads/topalbums-2018.png)
-
-![toptags-2018.png](/uploads/toptags-2018.png)
-
-![mainstream-2018.png](/uploads/mainstream-2018.png)
 
 # What’s Next
 
