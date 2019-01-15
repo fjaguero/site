@@ -6,8 +6,6 @@ tags:
 - personal
 ---
 
-# My 2018 Annual Review
-
 Following the format from James Clear's webiste, this is my reflection from my previous year.
 
 # 1. What went well this year?
