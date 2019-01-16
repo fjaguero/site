@@ -24,7 +24,7 @@ So far I'm enjoying it, but with greater responsibility comes more stress. I str
 
 **Dedicated more meaningful time to my partner.** This one was one of my 2018 goals, and although is not easy to measure (because I am referring to meaningful time), I am sure that improved a lot.
 
-** Had the badminton habit.** Doing sports was not an issue this last year. Thanks to a coworker, I have been part of a badminton group where we play matches twice every week. The key motivator of this habit is that is complies with the 4 keys of good habits:
+**Had the badminton habit.** Doing sports was not an issue this last year. Thanks to a coworker, I have been part of a badminton group where we play matches twice every week. The key motivator of this habit is that is complies with the 4 keys of good habits:
 
 * It’s obvious: every Monday and Thursdays at 19:00
 
