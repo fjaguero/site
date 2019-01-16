@@ -62,7 +62,7 @@ Stopping the planning caused some issues on my finances. I spent more than I sho
 
 In terms of working, focusing on the essentials means spending more time in less things while not losing the focus on your “one thing”. In my case, I spent a lot of time focusing on making our enterprise product stable. I didn’t make sense to add more functionalities if the core product wasn’t good enough.
 
-** Protecting my time.** This year I learned a lot on how important is to prevent you or others take your time or distract you. It’s not only how productive or how good your Pomodoro technique is working. A day has more hours. I am now more aware of how “busy” I am at the office, while I usually get more deep work done at home. That’s actually another story to be told.
+**Protecting my time.** This year I learned a lot on how important is to prevent you or others take your time or distract you. It’s not only how productive or how good your Pomodoro technique is working. A day has more hours. I am now more aware of how “busy” I am at the office, while I usually get more deep work done at home. That’s actually another story to be told.
 
 # 2018 in music
 
