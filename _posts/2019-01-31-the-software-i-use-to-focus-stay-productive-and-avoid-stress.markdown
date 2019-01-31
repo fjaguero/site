@@ -131,7 +131,7 @@ I use the writing goal in order to maintain my habit of writing at least 200 wor
 
 In 2017, when I was writing my book “The Success Hacker”, I managed to get the habit of writing 500 words or more, but then I stopped and needed to start from scratch. Back then I was using Scrivener, but I find it too complex to write blog posts. Ulysses allows me to focus easily, without all the bells and whistles.
 
-\## Financing
+## Financing
 
 ### YNAB
 
