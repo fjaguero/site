@@ -5,6 +5,8 @@ tags:
 - personal
 ---
 
+**# Note: this is a work-in-progress post**
+
 *I will be updating this post when a substantial change of my workflow happens*
 
 This is a list of the software I use (and how I use it) in order to organize my personal life and work.
