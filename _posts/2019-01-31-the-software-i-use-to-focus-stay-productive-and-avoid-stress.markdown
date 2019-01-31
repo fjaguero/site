@@ -1,7 +1,6 @@
 ---
 title: The software I use to focus, stay productive, and avoid stress
 date: 2019-01-31 21:57:00 Z
-published: false
 tags:
 - personal
 ---
