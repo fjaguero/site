@@ -131,7 +131,7 @@ I use the writing goal in order to maintain my habit of writing at least 200 wor
 
 In 2017, when I was writing my book “The Success Hacker”, I managed to get the habit of writing 500 words or more, but then I stopped and needed to start from scratch. Back then I was using Scrivener, but I find it too complex to write blog posts. Ulysses allows me to focus easily, without all the bells and whistles.
 
-\## Financing
+## Financing
 
 ### YNAB
 
@@ -160,7 +160,8 @@ Getting the most of the app takes time, since it requires to add all the informa
 The overall process is the following:
 
 1. Preparation, goals and recurring payments — once, adjusted every few months
-   { Image }
+
+{ Image }
 
 The first time you start budgeting you will to organize the categories to what makes sense for you. I maintained most of the defaults and create two or three more. Once the categories are set, you can start assigning money to them. First of all, you will need to create a positive transaction (i.e. your pay-check).
 
@@ -169,10 +170,12 @@ The first time you start budgeting you will to organize the categories to what m
 1. Budgeting — once a month
 
 { Image }
+
 Just before the month ends, I start preparing the budget for the following month. By default, I start using the budget from the previous month and adjust from there. I make sure I meet the goals configured and check if I need to adjust it in order to buy something (i.e. new sneakers).
 
 1. Tracking where you spend your money — daily
-   { Image }
+
+{ Image }
 
 There is a bad side and a good side. The bad side is the time you need to spend tracking the transactions manually. The good side is that, once it becomes an habit, it stops being a negative thing to transform into a positive one: you are aware of the job you give to every dollar. Immediately after you spend $60 on that special dinner, a number pops up showing you how much left is in the budget for that category.
 
