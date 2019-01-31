@@ -18,6 +18,7 @@ This is a list of the software I use (and how I use it) in order to organize my 
 ### Todoist
 
 ![Webapp@2x.png](/uploads/Webapp@2x.png)
+
 I moved from the 2do app in October 2018. It wasn’t working perfectly for me in some cases, so I decided to try something new. Previously in 2016 I did the same thing, but back then I moved from Wunderlist to 2do. As usual, I moved because it makes some task easier to perform.
 
 **What I like about Todoist:**
@@ -60,7 +61,7 @@ The main flow is the following:
 
 I’m currently using the following filters right now:
 
-!\[todoist-filters.png\](/uploads/todoist-filters.png)
+![todoist-filters.png](/uploads/todoist-filters.png)
 
 { I’m using 2019 goals for habits and SMART goals, add it here }
 
