@@ -7,9 +7,9 @@ date: 2018-04-14 21:19:00 Z
 
 I work as a Technical Product Manager at [Lang.ai](https://lang.ai), a platform to enable the next generation of NLP products and applications. You can learn more about my work experience in my [LinkedIn profile](https://www.linkedin.com/in/fjaguero/).
 
-## Writing
+## Side projects
 
-In 2017 I launched my first book about productivity, [The Success Hacker](https://thesuccesshacker.es/). In 2018 I started to write my first Sci-Fi book.
+In 2017 I launched my first book about productivity, [The Success Hacker](https://thesuccesshacker.es/). In 2019 I started [In Progress Show](http://inprogressshow.com), a podcast where we look at how tech companies work from the inside.
 
 ## Community
 
