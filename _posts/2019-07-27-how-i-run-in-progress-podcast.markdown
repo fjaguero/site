@@ -1,5 +1,5 @@
 ---
-title: Launching the In Progress Show podcast
+title: How I run the In Progress Show podcast
 date: 2019-07-27 10:23:00 Z
 tags:
 - personal
