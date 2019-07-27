@@ -10,8 +10,6 @@ One of the main things I look for when I read articles from other professionals 
 
 I ended up deciding to go with the podcast model for the content since it has the benefit of the unexpected. You never know how a conversation can go, even if an initial script is defined. It also helps me to learn a lot from others.
 
-## How I am doing it
-
 ### Hosting
 
 The platform I chose to host the podcast is Audioboom. After some research, I ended up going with this platform because of the ease of use and the distribution options. It took me more than hour to setup all the channels, as some of them require manual action.
@@ -53,3 +51,5 @@ The recording happens on my laptop, using GarageBand. Given that I am using a Ma
 There is a funny story here: it took me some time to manage to correctly record both microphones at the same time. It turns out that you need to create an audio interface that include both microphones input. It seemed easy, but when I tried to do it, only one microphone was working. Later on I discovered that this was happening because both USB devices had the same identifier... which some people changed by sending their microphones to Blue for a firmware update! Thankfully Blue launched a software that allowed users to update the firmware with one click. I updated one of them and, magic!, it changed the USB identifier and everything worked like a charm. The other microphone was left with the stock firmware.
 
 I wanted to specially thank Guillermo de la Puente and Per Harald for being my first guests. It’s a great experience where I have fun and learn at the same time.
+
+You can check all the episodes directly from [inprogressshow.com](http://inprogressshow.com/).
