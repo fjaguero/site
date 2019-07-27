@@ -14,7 +14,7 @@ I ended up deciding to go with the podcast model for the content since it has th
 
 ### Hosting
 
-The platform I chose to host the podcast is Audioboom. After some research, I ended up going with this platform because of the ease of use and the distribution options. It took me more than hour to setup all the channels, as some of them require manual action.
+The platform I chose to host the podcast is [Audioboom](http://audioboom.com). After some research, I ended up going with this platform because of the ease of use and the distribution options. It took me more than hour to setup all the channels, as some of them require manual action.
 
 After a few days, the podcast was already accepted and published on the following platforms:
 
