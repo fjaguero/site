@@ -1,6 +1,9 @@
 ---
 title: Launching the In Progress Show podcast
 date: 2019-07-27 10:23:00 Z
+tags:
+- personal
+- podcast
 ---
 
 One of the main things I look for when I read articles from other professionals is to learn from their craft and how they get the job done. It’s common to read experiences or tips where everything works incredible well. There are no errors or wrong decisions and everything is already learned. This is one of the reasons why I started to think I about a way to share content that was focused on the honest bits of doing the multiple jobs that are available in the tech industry.
