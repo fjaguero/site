@@ -6,8 +6,6 @@ tags:
 - podcast
 ---
 
-![In progress](/uploads/CE033437-EA35-406B-ACAD-84E74E7B2807.jpeg)
-
 ![In Progress](/uploads/832625E4-FD2B-4A6D-955D-B2AFF2BC6840.jpeg)
 
 One of the main things I look for when I read articles from other professionals is to learn from their craft and how they get the job done. It’s common to read experiences or tips where everything works incredible well. There are no errors or wrong decisions and everything is already learned. This is one of the reasons why I started to think I about a way to share content that was focused on the honest bits of doing the multiple jobs that are available in the tech industry.
