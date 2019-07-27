@@ -36,8 +36,6 @@ After a few days, the podcast was already accepted and published on the followin
 
 I started using the DAW that I was using at the moment to play some ocasional music: GarageBand. It did the job, but I decided to try other tools. I downloaded the free trial of Adobe’s Audition. It had a small learning curve but in a few hours I managed to edit an episode really quick. From the other three options, it was the best, but there was a little problem: it was expensive as hell for my use case. Paying 25$/mo for a software that I will be using twice a month for less than three hours wasn’t worth it, so I moved back to GarageBand. I have to admit that once the workflow is learned, it’s pretty quick. The only thing I miss is the ability to remove the empty space (in one click) after cutting a segment.
 
-\[ GarageBand Photo \]
-
 Once I agree on a topic with the interviewee, I share a Notion page with the next steps and a brief script with a ideas to discuss and use as a starting point. I have been using Notion for three months and I am happy paying user. It’s now my default place write for the blog, organize my weekly work and goals, and even use it as my journal.
 
 Regarding the music I use, I bought the into and outro music rights [here](https://www.bensound.com/).
