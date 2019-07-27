@@ -6,6 +6,8 @@ tags:
 - podcast
 ---
 
+![In progress](/uploads/CE033437-EA35-406B-ACAD-84E74E7B2807.jpeg)
+
 One of the main things I look for when I read articles from other professionals is to learn from their craft and how they get the job done. It’s common to read experiences or tips where everything works incredible well. There are no errors or wrong decisions and everything is already learned. This is one of the reasons why I started to think I about a way to share content that was focused on the honest bits of doing the multiple jobs that are available in the tech industry.
 
 I ended up deciding to go with the podcast model for the content since it has the benefit of the unexpected. You never know how a conversation can go, even if an initial script is defined. It also helps me to learn a lot from others.
