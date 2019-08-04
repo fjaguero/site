@@ -175,13 +175,13 @@ I’m using “Exist” to keep my journal: every day at 11.30PM (notification o
 
 When we talk about *proctecting our time*, I see that we can take actions in two ways:
 
-**1) Preventing distracting activities to happen**
+### Preventing distracting activities to happen
 
 This one is tricky. We need to do an effort to acknowledge that our decisions and mood are affected every day. Doing or not doing an activity is not a matter of motivation. It’s more complex.
 
 I know people that avoid setting limits to their behaviour. They think that *you must be crazy* if you need software to prevent you from doing something. That’s why this step is tricky. Having a system to do work for us is one of the best decisions we can take if we want to be efficient on the right tasks.
 
-### Freedom
+#### Freedom
 
 This app is pretty straightforward. It blocks a series a websites or apps based on the *sessions* we previously define. I use it for both for work and personal tasks. Behind the scenes it spins up a proxy that blocks the connections.  I
 
@@ -195,17 +195,17 @@ I have the following sessions configured:
 
 *No email in the morning/evening* this is the last configured session and it goes in parallel with the  *work* one. It just blocks Gmail from 10:30 to 14:30 and then from 15:00 to 18:30. This allows me to check for the e-mail twice a day and then focus on other tasks. Email is one of the easiest distractions.
 
-**2) Optimizing processes to make them more efficient**
+### Optimizing processes to make them more efficient
 
 The second part of protecting the time is to make repetitive processes more efficient.
 
-### 1password
+#### 1password
 
 A password manager is both a security and productivity tool. It helps you remove the need of remembering passwords: you only need to remember one. If you add a 2FA app, the first layer of security is completed.
 
 I use the password manager at least two or three times a day. There are some services where  the session is not kept, like AWS. In that case, every morning I need to use the password and put the 2FA code. This is a special case since the information stored there has high value for the company and its users.
 
-### Mobile Phone
+#### Mobile Phone
 
 Last year I started testing a version of the *distraction-free phone*.  I have to admit that is not fully distraction-free, but it’s definitely an improvement.
 
@@ -219,7 +219,7 @@ The other two screens contain one widget each:
 
 I use them to quickly check what is my plan for the day and if I need to move tasks.
 
-### Android 9
+#### Android 9
 
 Thankfully last month I got the update to Android 9 where they introduced the *Digital Well-being* functionality. I dramatically reduced the amount of notifications and phone usage, as well as understanding better how often I unlock the phone (making some progress on this one).
 
