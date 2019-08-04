@@ -14,3 +14,5 @@ I tried [Notion](https://notion.so) back in 2018 and didn’t end up using it...
 After the first week, I decided to move my planning workflow there (personal and professional). I have been iterating it but I can say that it dramatically improved, mainly because of my weekly template, where I centralize both my weekly and daily most important tasks.
 
 I will be writing an update on [the software](https://fjaguero.com/posts/the-software-i-use-to-focus-stay-productive-and-avoid-stress/) I use and include a block with my Notion workflow. It takes time to adapt, but once you get used to it, it gets really powerful.
+
+Note: have a look at their updated [template gallery](https://www.notion.so/Notion-Template-Gallery-181e961aeb5c4ee6915307c0dfd5156d), it’s a great starting point.
