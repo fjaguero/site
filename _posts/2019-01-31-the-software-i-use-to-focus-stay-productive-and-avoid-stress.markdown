@@ -63,15 +63,9 @@ I’m currently using the following filters right now:
 
 ![todoist-filters-7c783f.png](/uploads/todoist-filters-7c783f.png)
 
-{ I’m using 2019 goals for habits and SMART goals, add it here }
-
-\(img)
-
 They are pretty self-explaining. Two of them are work-related and the other two handle the personal side. These are useful to have a quick way of my current day and, once it’s approaching the end, how tomorrow looks like and if it makes sense to move something.
 
 #### Syncing with the calendar
-
-{ Capture from Dropbox/Blog }
 
 I’m currently using the one-way sync with Todoist because it allows me to have:
 
@@ -83,9 +77,7 @@ This way I can have an event “Lunch” every day at 14:00 only on my calendar.
 
 ### Calendar
 
-I’ve been using the time-boxing technique for a while. The idea is to bulldoze your calendar with events until you fill it up. This is how a day may look like:
-
-{ Calendar Photo }
+I’ve been using the time-boxing technique for a while. The idea is to bulldoze your calendar with events until you fill it up.
 
 Most of the events are recurring: playing badminton twice per week, my morning and night routines or just the time focused to work . Other events are focused on habits or things I want to spend more time on, like going out with my girlfriend and spend quality time with her. Lastly, when something comes up (i.e. Madrid Devs meetup) I add it to the calendar and adjust it as needed.
 
@@ -93,14 +85,13 @@ The main benefit of this approach is to have a clear picture of how you actually
 
 ### Agenda
 
-{ Photo of the app }
-I discovered this app when it was in beta. I liked the approach of mixing notes and calendar events — as I do with the mix of tasks and calendars.
+I discovered [this app](https://agenda.com) when it was in beta. I liked the approach of mixing notes and calendar events — as I do with the mix of tasks and calendars.
 
 Agenda allows me to organize my meeting notes while directly attaching them to calendar events. It has all the features from other text editors and organization tools, but it adds this extra point.
 
 The premium version allows you —among others—  to copy/export Markdown, create calendar events, and choose what calendars to show inside the app.
 
-{ Photo of the overview and categories }
+![619A0DF2-CD19-4E35-A3AA-8250DD974EAD.png](/uploads/619A0DF2-CD19-4E35-A3AA-8250DD974EAD.png)
 
 It has two views:
 
@@ -112,7 +103,6 @@ It has two views:
 
 ### Ulysses
 
-{ Photo of the app }
 I currently use Ulysses for my personal writing, like this post.
 
 What I like of it:
@@ -127,72 +117,57 @@ What I like of it:
 
 I use the writing goal in order to maintain my habit of writing at least 200 words every day. Once I’m comfortable with it, I will push it a little bit more.
 
-{ Photo of the goal counter }
-
 In 2017, when I was writing my book “The Success Hacker”, I managed to get the habit of writing 500 words or more, but then I stopped and needed to start from scratch. Back then I was using Scrivener, but I find it too complex to write blog posts. Ulysses allows me to focus easily, without all the bells and whistles.
 
-## Financing
+## Financing
 
 ### YNAB
 
-I’ve been using YNAB since 2013 {TODO: Double check this}. In a few words, it reduced my financial stress by giving me full awareness of what I use my money for. This helps you understand how you can save —more—  money, or at least where you should spend less.
+I’ve been using YNAB since 2013. In a few words, it reduced my financial stress by giving me full awareness of what I use my money for. This helps you understand how you can save —more—  money, or at least where you should spend less.
 
-YNAB it’s more than software. It’s an entire methodology that you need to fully embrace in order to get real value from it. \[Here\] {Add link} you can learn more about it. They also organize webinars on specific topics. I think I attended to at least two of them.
+YNAB it’s more than software. It’s an [entire methodology](https://www.youneedabudget.com/the-four-rules/) that you need to fully embrace in order to get real value from it.[Here](https://docs.youneedabudget.com/category/133-quick-start) you can learn more about it. They also organize webinars on specific topics. I think I attended to at least two of them.
 
 The four basic principles are:
 
+* Give every dollar a job
+
+* Embrace your true expenses
+
 * Roll with the punches
 
-* Giver every dollar a job
-
-* x
-
-* x
+* Age your money
 
 Once you understand this, you can start using their apps.
 
 The **desktop app** is useful process a lot of transactions (clear them), setup recurring payments, organize categories, or check the reports.
 
-The **mobile app** is key for the daily inputs. Every time I go out for dinner, I open the app and add the transaction. This is a matter of 5 seconds, since the app already geo-localized (?) most of the places where I spend money. That means that once I open the app, it knows that I’m in “Restaurant A”, which belongs to the category Dining out.
+The **mobile app** is key for the daily inputs. Every time I go out for dinner, I open the app and add the transaction. This is a matter of 5 seconds, since the app already geo-localizes the places where I spend money (if I want to). That means that once I open the app, it knows that I’m in “Restaurant A”, which belongs to the category Dining out.
 
 Getting the most of the app takes time, since it requires to add all the information from where you spend money on. Once that’s in, and you already did your first money and used it for at least three months (in order to get budget averages), it becomes less of a hassle.
 
 The overall process is the following:
 
-1. Preparation, goals and recurring payments — once, adjusted every few months
+**1. Preparation, goals and recurring payments — once, adjusted every few months**
 
-{ Image }
+The first time you start budgeting you will to organize the categories to what makes sense for you. I maintained most of the defaults and create two or three more. Once the categories are set, you can start assigning money to them. First of all, you will need to create a positive transaction (i.e. your paycheck).
 
-The first time you start budgeting you will to organize the categories to what makes sense for you. I maintained most of the defaults and create two or three more. Once the categories are set, you can start assigning money to them. First of all, you will need to create a positive transaction (i.e. your pay-check).
-
-{ Goals }
-
-1. Budgeting — once a month
-
-{ Image }
+**2. Budgeting — once a month**
 
 Just before the month ends, I start preparing the budget for the following month. By default, I start using the budget from the previous month and adjust from there. I make sure I meet the goals configured and check if I need to adjust it in order to buy something (i.e. new sneakers).
 
-1. Tracking where you spend your money — daily
-
-{ Image }
+**3. Tracking where you spend your money — daily **
 
 There is a bad side and a good side. The bad side is the time you need to spend tracking the transactions manually. The good side is that, once it becomes an habit, it stops being a negative thing to transform into a positive one: you are aware of the job you give to every dollar. Immediately after you spend $60 on that special dinner, a number pops up showing you how much left is in the budget for that category.
-
-{ Image of available money for that category }
 
 ## Habits
 
 ### Loop Habit Tracker
 
-{ Screenshot}
 Other than resisting bad habits with what I mentioned before, I use the “Loop Habit Tracker” on my phone that prompts me every night a check for the writing habit. I also have a widget on my phone to see every “X” I mark (like Seinfeld with the jokes).
 
 ## Reflection
 
 ### Exist
-
-{ Screenshot }
 
 I’m using “Exist” to keep my journal: every day at 11.30PM (notification on phone) I write a few words about the day, rate it, and tag it (mainly using pre-created ones).
 
@@ -208,12 +183,9 @@ I know people that avoid setting limits to their behaviour. They think that *you
 
 ### Freedom
 
-{ Screenshot }
-
 This app is pretty straightforward. It blocks a series a websites or apps based on the *sessions* we previously define. I use it for both for work and personal tasks. Behind the scenes it spins up a proxy that blocks the connections.  I
 
 I have the following sessions configured:
-{ Sessions Screenshot }
 
 *No gaming evening* is configured to run on my Windows computer where I play games. This session prevents me to game in the evenings, specially on weekends, so I can focus on other things.
 
@@ -229,8 +201,6 @@ The second part of protecting the time is to make repetitive processes more effi
 
 ### 1password
 
-{ Screenshot }
-
 A password manager is both a security and productivity tool. It helps you remove the need of remembering passwords: you only need to remember one. If you add a 2FA app, the first layer of security is completed.
 
 I use the password manager at least two or three times a day. There are some services where  the session is not kept, like AWS. In that case, every morning I need to use the password and put the 2FA code. This is a special case since the information stored there has high value for the company and its users.
@@ -239,11 +209,7 @@ I use the password manager at least two or three times a day. There are some ser
 
 Last year I started testing a version of the *distraction-free phone*.  I have to admit that is not fully distraction-free, but it’s definitely an improvement.
 
-{ Main screen Screenshot }
-
 I have the top five apps I use on the bottom of my home screen: banking app, Spotify, Alarm, Todoist, and telegram Telegram (which is used mainly to talk with one person).
-
-{ Second screen screenshot }
 
 The other two screens contain one widget each:
 
