@@ -1,186 +1,255 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="Fernando Agüero is a Technical Product Manager, currently working at Lang.ai">
-  <link rel="icon" href="favicon.ico">
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta
+    name="description"
+    content="Fernando Agüero is a Product Manager currently working at Lang.ai"
+  />
+  <link rel="icon" href="favicon.ico" />
   <style>
-  /**
+    /**
    * Reset some basic elements
    */
-  body, h1, h2, h3, h4, h5, h6,
-  p, blockquote, pre, hr,
-  dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0; }
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    hr,
+    dl,
+    dd,
+    ol,
+    ul,
+    figure {
+      margin: 0;
+      padding: 0;
+    }
 
-  /**
+    /**
    * Basic styling
    */
-  body {
-    font: 300 16px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
-    color: #111;
-    background-color: #fdfdfd;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal; }
-    
-    strong { font-weight: bold }
+    body {
+      font: 300 16px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+      color: #111;
+      background-color: #fdfdfd;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-feature-settings: "kern" 1;
+      -moz-font-feature-settings: "kern" 1;
+      -o-font-feature-settings: "kern" 1;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal;
+    }
 
-  /**
+    strong {
+      font-weight: bold;
+    }
+
+    /**
    * Set `margin-bottom` to maintain vertical rhythm
    */
-  h1, h2, h3, h4, h5, h6,
-  p, blockquote, pre,
-  ul, ol, dl, figure {
-    margin-bottom: 15px; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    ul,
+    ol,
+    dl,
+    figure {
+      margin-bottom: 15px;
+    }
 
-  /**
+    /**
    * Images
    */
-  img {
-    max-width: 100%;
-    vertical-align: middle; }
+    img {
+      max-width: 100%;
+      vertical-align: middle;
+    }
 
-  /**
+    /**
    * Figures
    */
-  figure > img {
-    display: block; }
+    figure > img {
+      display: block;
+    }
 
-  figcaption {
-    font-size: 14px; }
+    figcaption {
+      font-size: 14px;
+    }
 
-  /**
+    /**
    * Lists
    */
-  ul, ol {
-    margin-left: 30px; }
+    ul,
+    ol {
+      margin-left: 30px;
+    }
 
-  li > ul,
-  li > ol {
-    margin-bottom: 0; }
+    li > ul,
+    li > ol {
+      margin-bottom: 0;
+    }
 
-  /**
+    /**
    * Headings
    */
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 300; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 300;
+    }
 
-  /**
+    /**
    * Links
    */
-  a {
-    color: #2a7ae2;
-    text-decoration: none; }
+    a {
+      color: #2a7ae2;
+      text-decoration: none;
+    }
     a:visited {
-      color: #1d6dd5; }
+      color: #1d6dd5;
+    }
     a:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+    }
 
-  /**
+    /**
    * Blockquotes
    */
-  blockquote {
-    color: #828282;
-    border-left: 4px solid #e8e8e8;
-    padding-left: 15px;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic; }
+    blockquote {
+      color: #828282;
+      border-left: 4px solid #e8e8e8;
+      padding-left: 15px;
+      font-size: 18px;
+      letter-spacing: -1px;
+      font-style: italic;
+    }
     blockquote > :last-child {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+    }
 
-  /**
+    /**
    * Code formatting
    */
-  pre,
-  code {
-    font-size: 15px;
-    border: 1px solid #e8e8e8;
-    border-radius: 3px;
-    background-color: #eef; }
+    pre,
+    code {
+      font-size: 15px;
+      border: 1px solid #e8e8e8;
+      border-radius: 3px;
+      background-color: #eef;
+    }
 
-  code {
-    padding: 1px 5px; }
+    code {
+      padding: 1px 5px;
+    }
 
-  pre {
-    padding: 8px 12px;
-    overflow-x: auto; }
+    pre {
+      padding: 8px 12px;
+      overflow-x: auto;
+    }
     pre > code {
       border: 0;
       padding-right: 0;
-      padding-left: 0; }
+      padding-left: 0;
+    }
 
-  /**
+    /**
    * Wrapper
    */
-  .wrapper {
-    max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px; }
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px * 2));
+      max-width: calc(800px - (30px * 2));
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
     @media screen and (max-width: 800px) {
       .wrapper {
         max-width: -webkit-calc(800px - (30px));
         max-width: calc(800px - (30px));
         padding-right: 15px;
-        padding-left: 15px; } }
+        padding-left: 15px;
+      }
+    }
 
-  /**
+    /**
    * Clearfix
    */
-  .wrapper:after, .footer-col-wrapper:after {
-    content: "";
-    display: table;
-    clear: both; }
+    .wrapper:after,
+    .footer-col-wrapper:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
-  /**
+    /**
    * Icons
    */
-  .icon > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle; }
+    .icon > svg {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+    }
     .icon > svg path {
-      fill: #828282; }
+      fill: #828282;
+    }
 
-  /**
+    /**
    * Site header
    */
-  .site-header {
-    border-top: 5px solid #424242;
-    border-bottom: 1px solid #e8e8e8;
-    min-height: 56px;
-    position: relative; }
+    .site-header {
+      border-top: 5px solid #424242;
+      border-bottom: 1px solid #e8e8e8;
+      min-height: 56px;
+      position: relative;
+    }
 
-  .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left; }
-    .site-title, .site-title:visited {
-      color: #424242; }
+    .site-title {
+      font-size: 26px;
+      line-height: 56px;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      float: left;
+    }
+    .site-title,
+    .site-title:visited {
+      color: #424242;
+    }
 
-  .site-nav {
-    float: right;
-    line-height: 56px; }
+    .site-nav {
+      float: right;
+      line-height: 56px;
+    }
     .site-nav .menu-icon {
-      display: none; }
+      display: none;
+    }
     .site-nav .page-link {
       color: #111;
-      line-height: 1.5; }
-      .site-nav .page-link:not(:last-child) {
-        margin-right: 20px; }
+      line-height: 1.5;
+    }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px;
+    }
     @media screen and (max-width: 600px) {
       .site-nav {
         position: absolute;
@@ -189,358 +258,472 @@
         background-color: #fdfdfd;
         border: 1px solid #e8e8e8;
         border-radius: 5px;
-        text-align: right; }
-        .site-nav .menu-icon {
-          display: block;
-          float: right;
-          width: 36px;
-          height: 26px;
-          line-height: 0;
-          padding-top: 10px;
-          text-align: center; }
-          .site-nav .menu-icon > svg {
-            width: 18px;
-            height: 15px; }
-            .site-nav .menu-icon > svg path {
-              fill: #424242; }
-        .site-nav .trigger {
-          clear: both;
-          display: none; }
-        .site-nav:hover .trigger {
-          display: block;
-          padding-bottom: 5px; }
-        .site-nav .page-link {
-          display: block;
-          padding: 5px 10px;
-          margin-left: 20px; }
-          .site-nav .page-link:not(:last-child) {
-            margin-right: 0; } }
+        text-align: right;
+      }
+      .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+      }
+      .site-nav .menu-icon > svg {
+        width: 18px;
+        height: 15px;
+      }
+      .site-nav .menu-icon > svg path {
+        fill: #424242;
+      }
+      .site-nav .trigger {
+        clear: both;
+        display: none;
+      }
+      .site-nav:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+      }
+      .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px;
+      }
+      .site-nav .page-link:not(:last-child) {
+        margin-right: 0;
+      }
+    }
 
-  /**
+    /**
    * Site footer
    */
-  .site-footer {
-    border-top: 1px solid #e8e8e8;
-    padding: 30px 0; }
+    .site-footer {
+      border-top: 1px solid #e8e8e8;
+      padding: 30px 0;
+    }
     .site-footer ul {
-      margin-left: 0; }
+      margin-left: 0;
+    }
     .site-footer li {
       display: inline-block;
       text-decoration: none;
-      padding-right: 10px; }
-      .site-footer li a {
-        color: #bdbdbd; }
+      padding-right: 10px;
+    }
+    .site-footer li a {
+      color: #bdbdbd;
+    }
 
-  .footer-heading {
-    font-size: 18px;
-    margin-bottom: 15px; }
+    .footer-heading {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
 
-  .contact-list,
-  .social-media-list {
-    list-style: none;
-    margin-left: 0; }
+    .contact-list,
+    .social-media-list {
+      list-style: none;
+      margin-left: 0;
+    }
 
-  .footer-col-wrapper {
-    font-size: 15px;
-    color: #828282;
-    margin-left: -15px; }
+    .footer-col-wrapper {
+      font-size: 15px;
+      color: #828282;
+      margin-left: -15px;
+    }
 
-  .footer-col {
-    float: left;
-    margin-bottom: 15px;
-    padding-left: 15px; }
+    .footer-col {
+      float: left;
+      margin-bottom: 15px;
+      padding-left: 15px;
+    }
 
-  .footer-col-1 {
-    width: -webkit-calc(35% - (30px / 2));
-    width: calc(35% - (30px / 2)); }
+    .footer-col-1 {
+      width: -webkit-calc(35% - (30px / 2));
+      width: calc(35% - (30px / 2));
+    }
 
-  .footer-col-2 {
-    width: -webkit-calc(20% - (30px / 2));
-    width: calc(20% - (30px / 2)); }
-
-  .footer-col-3 {
-    width: -webkit-calc(45% - (30px / 2));
-    width: calc(45% - (30px / 2)); }
-
-  @media screen and (max-width: 800px) {
-    .footer-col-1,
     .footer-col-2 {
-      width: -webkit-calc(50% - (30px / 2));
-      width: calc(50% - (30px / 2)); }
+      width: -webkit-calc(20% - (30px / 2));
+      width: calc(20% - (30px / 2));
+    }
 
     .footer-col-3 {
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2)); } }
-  @media screen and (max-width: 600px) {
-    .footer-col {
-      float: none;
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2)); } }
-  /**
+      width: -webkit-calc(45% - (30px / 2));
+      width: calc(45% - (30px / 2));
+    }
+
+    @media screen and (max-width: 800px) {
+      .footer-col-1,
+      .footer-col-2 {
+        width: -webkit-calc(50% - (30px / 2));
+        width: calc(50% - (30px / 2));
+      }
+
+      .footer-col-3 {
+        width: -webkit-calc(100% - (30px / 2));
+        width: calc(100% - (30px / 2));
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (30px / 2));
+        width: calc(100% - (30px / 2));
+      }
+    }
+    /**
    * Page content
    */
-   .currently-reading {
-     display: block;
-     padding-bottom: 25px;
-     margin-bottom: 25px;
-     border-bottom: 2px solid #EEE;
-   }
+    .currently-reading {
+      display: block;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eee;
+    }
 
-  .intro-wrapper {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #EEE; }
+    .intro-wrapper {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #eee;
+    }
 
-  .link {
-    text-decoration: underline;
-    text-decoration-style: dotted; }
+    .link {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
 
-  .page-intro {
-    margin: .3em 0;
-    font-family: 'Merriweather',serif;
-    font-size: 52px;
-    line-height: 1.25em;
-    font-weight: 700; }
+    .page-intro {
+      margin: 0.3em 0;
+      font-family: "Merriweather", serif;
+      font-size: 52px;
+      line-height: 1.25em;
+      font-weight: 700;
+    }
 
-  .subtitle {
-    font-family: 'Merriweather',serif;
-    font-weight: 300; }
+    .subtitle {
+      font-family: "Merriweather", serif;
+      font-weight: 300;
+    }
     .subtitle a {
-      color: #111; }
+      color: #111;
+    }
 
-  .page-content {
-    padding: 30px 0; }
+    .page-content {
+      padding: 30px 0;
+    }
 
-  .page-heading {
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Merriweather'; }
+    .page-heading {
+      font-size: 20px;
+      font-style: italic;
+      font-family: "Merriweather";
+    }
 
-  .post-list {
-    margin-left: 0;
-    list-style: none; }
+    .post-list {
+      margin-left: 0;
+      list-style: none;
+    }
     .post-list > li {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+    }
 
-  .post-meta {
-    font-size: 14px;
-    color: #828282;
-    display: inline-block; }
+    .post-meta {
+      font-size: 14px;
+      color: #828282;
+      display: inline-block;
+    }
 
-  .post-link {
-    display: block;
-    font-size: 24px; }
+    .post-link {
+      display: block;
+      font-size: 24px;
+    }
 
-  /**
+    /**
    * Posts
    */
-  .post-header {
-    margin-bottom: 30px; }
+    .post-header {
+      margin-bottom: 30px;
+    }
 
-  .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1; }
+    .post-title {
+      font-size: 42px;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
     @media screen and (max-width: 800px) {
       .post-title {
-        font-size: 36px; } }
+        font-size: 36px;
+      }
+    }
 
-  .post-content {
-    margin-bottom: 30px; }
+    .post-content {
+      margin-bottom: 30px;
+    }
     .post-content h2 {
-      font-size: 32px; }
-      @media screen and (max-width: 800px) {
-        .post-content h2 {
-          font-size: 28px; } }
+      font-size: 32px;
+    }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 28px;
+      }
+    }
     .post-content h3 {
-      font-size: 26px; }
-      @media screen and (max-width: 800px) {
-        .post-content h3 {
-          font-size: 22px; } }
+      font-size: 26px;
+    }
+    @media screen and (max-width: 800px) {
+      .post-content h3 {
+        font-size: 22px;
+      }
+    }
     .post-content h4 {
-      font-size: 20px; }
-      @media screen and (max-width: 800px) {
-        .post-content h4 {
-          font-size: 18px; } }
+      font-size: 20px;
+    }
+    @media screen and (max-width: 800px) {
+      .post-content h4 {
+        font-size: 18px;
+      }
+    }
 
-          /* cyrillic-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: italic;
-          font-weight: 300;
-          src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff1jvzDP3WGO5g.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: italic;
-          font-weight: 300;
-          src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff8jvzDP3WGO5g.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: italic;
-          font-weight: 300;
-          src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff3jvzDP3WGO5g.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: italic;
-          font-weight: 300;
-          src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff2jvzDP3WGO5g.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: italic;
-          font-weight: 300;
-          src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff4jvzDP3WG.woff2) format('woff2');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 300;
-          src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZVcf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 300;
-          src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZXMf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 300;
-          src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZV8f6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 300;
-          src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZVsf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 300;
-          src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZWMf6hPvhPQ.woff2) format('woff2');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 700;
-          src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVcf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 700;
-          src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZXMf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 700;
-          src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZV8f6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 700;
-          src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVsf6hPvhPUWH.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-          font-family: 'Merriweather';
-          font-style: normal;
-          font-weight: 700;
-          src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6hPvhPQ.woff2) format('woff2');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* greek-ext */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+1F00-1FFF;
-        }
-        /* greek */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+0370-03FF;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
+    /* cyrillic-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff1jvzDP3WGO5g.woff2)
+          format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+        U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff8jvzDP3WGO5g.woff2)
+          format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff3jvzDP3WGO5g.woff2)
+          format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff2jvzDP3WGO5g.woff2)
+          format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 300;
+      src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXff4jvzDP3WG.woff2)
+          format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* cyrillic-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Merriweather Light"), local("Merriweather-Light"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZVcf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+        U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Merriweather Light"), local("Merriweather-Light"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZXMf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Merriweather Light"), local("Merriweather-Light"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZV8f6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Merriweather Light"), local("Merriweather-Light"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZVsf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Merriweather Light"), local("Merriweather-Light"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRZWMf6hPvhPQ.woff2)
+          format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* cyrillic-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Merriweather Bold"), local("Merriweather-Bold"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVcf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+        U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Merriweather Bold"), local("Merriweather-Bold"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZXMf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Merriweather Bold"), local("Merriweather-Bold"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZV8f6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Merriweather Bold"), local("Merriweather-Bold"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZVsf6hPvhPUWH.woff2)
+          format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: "Merriweather";
+      font-style: normal;
+      font-weight: 700;
+      src: local("Merriweather Bold"), local("Merriweather-Bold"),
+        url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6hPvhPQ.woff2)
+          format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* cyrillic-ext */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+        U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* greek-ext */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+1F00-1FFF;
+    }
+    /* greek */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+0370-03FF;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2)
+          format("woff2");
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2)
+          format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
   </style>
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+  />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+  href="{{ "/feed.xml" | prepend: site.url }}">
 </head>

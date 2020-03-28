@@ -3,42 +3,45 @@ layout: default
 ---
 
 <div class="home">
-
   <div class="intro-wrapper">
-    <h1 class="page-intro">Hi, I'm Fernando. </h1>
-    <h2 class="subtitle">I work as a Technical Product Manager at <a href="https://lang.ai" class="link" title="Visit the Lang.ai site">Lang.ai</a>.</h2>
+    <h1 class="page-intro">Hi, I'm Fernando.</h1>
+    <h2 class="subtitle">
+      I work as a Product Manager at
+      <a href="https://lang.ai" class="link" title="Visit the Lang.ai site"
+        >Lang.ai</a
+      >.
+    </h2>
   </div>
-
-  <h1 class="page-heading">Currently Reading</h1>
-  <a class="currently-reading" href="https://www.goodreads.com/book/show/42611483-escaping-the-build-trap">  Escaping the Build Trap: How Effective Product Management Creates Real Value, by Melissa Perri  </a>
-
 
   <h1 class="page-heading">Latest Notes & Ramblings</h1>
 
   <ul class="post-list">
-    {% assign items = site.notes | sort: 'date' | reverse %}
-    {% for note in items limit:5 %}
-      <li>
-        <span class="post-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ note.url | prepend: site.baseurl }}">{{ note.title }}</a>
-        </h2>
-      </li>
+    {% assign items = site.notes | sort: 'date' | reverse %} {% for note in
+    items limit:5 %}
+    <li>
+      <span class="post-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ note.url | prepend: site.baseurl }}"
+          >{{ note.title }}</a
+        >
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 
   <h1 class="page-heading">Latest Posts</h1>
 
   <ul class="post-list">
-    {% assign latestPosts = site.posts | sort: 'date' | reverse %}
-    {% for post in latestPosts limit:5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    {% assign latestPosts = site.posts | sort: 'date' | reverse %} {% for post
+    in latestPosts limit:5 %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"
+          >{{ post.title }}</a
+        >
+      </h2>
+    </li>
     {% endfor %}
   </ul>
-
 </div>
