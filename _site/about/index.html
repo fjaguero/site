@@ -1,196 +1,261 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>About me</title>
-  <meta name="description" content="Fernando Agüero is a Technical Product Manager, currently working at Lang.ai">
+    <title>About me</title>
+    <meta
+      name="description"
+      content="Fernando Agüero is a Product Manager working at Lang.ai"
+    />
 
-  <style>
-  /**
+    <style>
+      /**
    * Reset some basic elements
    */
-  body, h1, h2, h3, h4, h5, h6,
-  p, blockquote, pre, hr,
-  dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0; }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      hr,
+      dl,
+      dd,
+      ol,
+      ul,
+      figure {
+        margin: 0;
+        padding: 0;
+      }
 
-  /**
+      /**
    * Basic styling
    */
-  body {
-    font: 300 16px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
-    color: #111;
-    background-color: #fdfdfd;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal; }
+      body {
+        font: 300 20px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+        color: #111;
+        background-color: #fdfdfd;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-feature-settings: "kern" 1;
+        -moz-font-feature-settings: "kern" 1;
+        -o-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        font-kerning: normal;
+      }
 
-  /**
+      /**
    * Set `margin-bottom` to maintain vertical rhythm
    */
-  h1, h2, h3, h4, h5, h6,
-  p, blockquote, pre,
-  ul, ol, dl, figure {
-    margin-bottom: 15px; }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      ul,
+      ol,
+      dl,
+      figure {
+        margin-bottom: 15px;
+      }
 
-  /**
+      /**
    * Images
    */
-  img {
-    max-width: 100%;
-    vertical-align: middle; }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
 
-  /**
+      /**
    * Figures
    */
-  figure > img {
-    display: block; }
+      figure > img {
+        display: block;
+      }
 
-  figcaption {
-    font-size: 14px; }
+      figcaption {
+        font-size: 14px;
+      }
 
-  /**
+      /**
    * Lists
    */
-  ul, ol {
-    margin-left: 30px; }
+      ul,
+      ol {
+        margin-left: 30px;
+      }
 
-  li > ul,
-  li > ol {
-    margin-bottom: 0; }
+      li > ul,
+      li > ol {
+        margin-bottom: 0;
+      }
 
-  /**
+      /**
    * Headings
    */
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 300; }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 300;
+      }
 
-  /**
+      /**
    * Links
    */
-  a {
-    color: #2a7ae2;
-    text-decoration: none; }
-    a:visited {
-      color: #1d6dd5; }
-    a:hover {
-      text-decoration: underline; }
+      a {
+        color: #2a7ae2;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #1d6dd5;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
-  /**
+      /**
    * Blockquotes
    */
-  blockquote {
-    color: #828282;
-    border-left: 4px solid #e8e8e8;
-    padding-left: 15px;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic; }
-    blockquote > :last-child {
-      margin-bottom: 0; }
+      blockquote {
+        color: #828282;
+        border-left: 4px solid #e8e8e8;
+        padding-left: 15px;
+        font-size: 18px;
+        letter-spacing: -1px;
+        font-style: italic;
+      }
+      blockquote > :last-child {
+        margin-bottom: 0;
+      }
 
-  /**
+      /**
    * Code formatting
    */
-  pre,
-  code {
-    font-size: 15px;
-    border: 1px solid #e8e8e8;
-    border-radius: 3px;
-    background-color: #eef; }
+      pre,
+      code {
+        font-size: 15px;
+        border: 1px solid #e8e8e8;
+        border-radius: 3px;
+        background-color: #eef;
+      }
 
-  code {
-    padding: 1px 5px; }
+      code {
+        padding: 1px 5px;
+      }
 
-  pre {
-    padding: 8px 12px;
-    overflow-x: auto; }
-    pre > code {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0; }
+      pre {
+        padding: 8px 12px;
+        overflow-x: auto;
+      }
+      pre > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+      }
 
-  /**
+      /**
    * Wrapper
    */
-  .wrapper {
-    max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px; }
-    @media screen and (max-width: 800px) {
       .wrapper {
-        max-width: -webkit-calc(800px - (30px));
-        max-width: calc(800px - (30px));
-        padding-right: 15px;
-        padding-left: 15px; } }
+        max-width: -webkit-calc(800px - (30px * 2));
+        max-width: calc(800px - (30px * 2));
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      @media screen and (max-width: 800px) {
+        .wrapper {
+          max-width: -webkit-calc(800px - (30px));
+          max-width: calc(800px - (30px));
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+      }
 
-  /**
+      /**
    * Clearfix
    */
-  .wrapper:after, .footer-col-wrapper:after {
-    content: "";
-    display: table;
-    clear: both; }
+      .wrapper:after,
+      .footer-col-wrapper:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
-  /**
+      /**
    * Icons
    */
-  .icon > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle; }
-    .icon > svg path {
-      fill: #828282; }
+      .icon > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+      }
+      .icon > svg path {
+        fill: #828282;
+      }
 
-  /**
+      /**
    * Site header
    */
-  .site-header {
-    border-top: 5px solid #424242;
-    border-bottom: 1px solid #e8e8e8;
-    min-height: 56px;
-    position: relative; }
+      .site-header {
+        border-top: 5px solid #424242;
+        border-bottom: 1px solid #e8e8e8;
+        min-height: 56px;
+        position: relative;
+      }
 
-  .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left; }
-    .site-title, .site-title:visited {
-      color: #424242; }
+      .site-title {
+        font-size: 26px;
+        line-height: 56px;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+        float: left;
+      }
+      .site-title,
+      .site-title:visited {
+        color: #424242;
+      }
 
-  .site-nav {
-    float: right;
-    line-height: 56px; }
-    .site-nav .menu-icon {
-      display: none; }
-    .site-nav .page-link {
-      color: #111;
-      line-height: 1.5; }
-      .site-nav .page-link:not(:last-child) {
-        margin-right: 20px; }
-    @media screen and (max-width: 600px) {
       .site-nav {
-        position: absolute;
-        top: 9px;
-        right: 15px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
-        border-radius: 5px;
-        text-align: right; }
+        float: right;
+        line-height: 56px;
+      }
+      .site-nav .menu-icon {
+        display: none;
+      }
+      .site-nav .page-link {
+        color: #111;
+        line-height: 1.5;
+      }
+      .site-nav .page-link:not(:last-child) {
+        margin-right: 20px;
+      }
+      @media screen and (max-width: 600px) {
+        .site-nav {
+          position: absolute;
+          top: 9px;
+          right: 15px;
+          background-color: #fdfdfd;
+          border: 1px solid #e8e8e8;
+          border-radius: 5px;
+          text-align: right;
+        }
         .site-nav .menu-icon {
           display: block;
           float: right;
@@ -198,293 +263,370 @@
           height: 26px;
           line-height: 0;
           padding-top: 10px;
-          text-align: center; }
-          .site-nav .menu-icon > svg {
-            width: 18px;
-            height: 15px; }
-            .site-nav .menu-icon > svg path {
-              fill: #424242; }
+          text-align: center;
+        }
+        .site-nav .menu-icon > svg {
+          width: 18px;
+          height: 15px;
+        }
+        .site-nav .menu-icon > svg path {
+          fill: #424242;
+        }
         .site-nav .trigger {
           clear: both;
-          display: none; }
+          display: none;
+        }
         .site-nav:hover .trigger {
           display: block;
-          padding-bottom: 5px; }
+          padding-bottom: 5px;
+        }
         .site-nav .page-link {
           display: block;
           padding: 5px 10px;
-          margin-left: 20px; }
-          .site-nav .page-link:not(:last-child) {
-            margin-right: 0; } }
+          margin-left: 20px;
+        }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0;
+        }
+      }
 
-  /**
+      /**
    * Site footer
    */
-  .site-footer {
-    border-top: 1px solid #e8e8e8;
-    padding: 30px 0; }
-    .site-footer ul {
-      margin-left: 0; }
-    .site-footer li {
-      display: inline-block;
-      text-decoration: none;
-      padding-right: 10px; }
+      .site-footer {
+        border-top: 1px solid #e8e8e8;
+        padding: 30px 0;
+      }
+      .site-footer ul {
+        margin-left: 0;
+      }
+      .site-footer li {
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 10px;
+      }
       .site-footer li a {
-        color: #bdbdbd; }
+        color: #bdbdbd;
+      }
 
-  .footer-heading {
-    font-size: 18px;
-    margin-bottom: 15px; }
+      .footer-heading {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
 
-  .contact-list,
-  .social-media-list {
-    list-style: none;
-    margin-left: 0; }
+      .contact-list,
+      .social-media-list {
+        list-style: none;
+        margin-left: 0;
+      }
 
-  .footer-col-wrapper {
-    font-size: 15px;
-    color: #828282;
-    margin-left: -15px; }
+      .footer-col-wrapper {
+        font-size: 15px;
+        color: #828282;
+        margin-left: -15px;
+      }
 
-  .footer-col {
-    float: left;
-    margin-bottom: 15px;
-    padding-left: 15px; }
+      .footer-col {
+        float: left;
+        margin-bottom: 15px;
+        padding-left: 15px;
+      }
 
-  .footer-col-1 {
-    width: -webkit-calc(35% - (30px / 2));
-    width: calc(35% - (30px / 2)); }
+      .footer-col-1 {
+        width: -webkit-calc(35% - (30px / 2));
+        width: calc(35% - (30px / 2));
+      }
 
-  .footer-col-2 {
-    width: -webkit-calc(20% - (30px / 2));
-    width: calc(20% - (30px / 2)); }
+      .footer-col-2 {
+        width: -webkit-calc(20% - (30px / 2));
+        width: calc(20% - (30px / 2));
+      }
 
-  .footer-col-3 {
-    width: -webkit-calc(45% - (30px / 2));
-    width: calc(45% - (30px / 2)); }
+      .footer-col-3 {
+        width: -webkit-calc(45% - (30px / 2));
+        width: calc(45% - (30px / 2));
+      }
 
-  @media screen and (max-width: 800px) {
-    .footer-col-1,
-    .footer-col-2 {
-      width: -webkit-calc(50% - (30px / 2));
-      width: calc(50% - (30px / 2)); }
+      @media screen and (max-width: 800px) {
+        .footer-col-1,
+        .footer-col-2 {
+          width: -webkit-calc(50% - (30px / 2));
+          width: calc(50% - (30px / 2));
+        }
 
-    .footer-col-3 {
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2)); } }
-  @media screen and (max-width: 600px) {
-    .footer-col {
-      float: none;
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2)); } }
-  /**
+        .footer-col-3 {
+          width: -webkit-calc(100% - (30px / 2));
+          width: calc(100% - (30px / 2));
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .footer-col {
+          float: none;
+          width: -webkit-calc(100% - (30px / 2));
+          width: calc(100% - (30px / 2));
+        }
+      }
+      /**
    * Page content
    */
-  .intro-wrapper {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #EEE; }
+      .intro-wrapper {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #eee;
+      }
 
-  .link {
-    text-decoration: underline;
-    text-decoration-style: dotted; }
+      .link {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+      }
 
-  .page-intro {
-    margin: .3em 0;
-    font-family: 'Merriweather',serif;
-    font-size: 52px;
-    line-height: 1.25em;
-    font-weight: 700; }
+      .page-intro {
+        margin: 0.3em 0;
+        font-family: "Merriweather", serif;
+        font-size: 52px;
+        line-height: 1.25em;
+        font-weight: 700;
+      }
 
-  .subtitle {
-    font-family: 'Merriweather',serif;
-    font-weight: 300; }
-    .subtitle a {
-      color: #111; }
+      .subtitle {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+      }
+      .subtitle a {
+        color: #111;
+      }
 
-  .page-content {
-    padding: 30px 0; }
+      .page-content {
+        padding: 30px 0;
+      }
 
-  .page-heading {
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Merriweather'; }
+      .page-heading {
+        font-size: 20px;
+        font-style: italic;
+        font-family: "Merriweather";
+      }
 
-  .post-list {
-    margin-left: 0;
-    list-style: none; }
-    .post-list > li {
-      margin-bottom: 30px; }
+      .post-list {
+        margin-left: 0;
+        list-style: none;
+      }
+      .post-list > li {
+        margin-bottom: 30px;
+      }
 
-  .post-meta {
-    font-size: 14px;
-    color: #828282;
-    display: inline-block; }
+      .post-meta {
+        font-size: 14px;
+        color: #828282;
+        display: inline-block;
+      }
 
-  .post-link {
-    display: block;
-    font-size: 24px; }
+      .post-link {
+        display: block;
+        font-size: 24px;
+      }
 
-  /**
+      /**
    * Posts
    */
-  .post-header {
-    margin-bottom: 30px; }
+      .post-header {
+        margin-bottom: 30px;
+      }
 
-  .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1; }
-    @media screen and (max-width: 800px) {
       .post-title {
-        font-size: 36px; } }
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+      }
+      @media screen and (max-width: 800px) {
+        .post-title {
+          font-size: 36px;
+        }
+      }
 
-  .post-content {
-    margin-bottom: 30px; }
-    .post-content h2 {
-      font-size: 32px; }
+      .post-content {
+        margin-bottom: 30px;
+      }
+      .post-content h2 {
+        font-size: 32px;
+      }
       @media screen and (max-width: 800px) {
         .post-content h2 {
-          font-size: 28px; } }
-    .post-content h3 {
-      font-size: 26px; }
+          font-size: 28px;
+        }
+      }
+      .post-content h3 {
+        font-size: 26px;
+      }
       @media screen and (max-width: 800px) {
         .post-content h3 {
-          font-size: 22px; } }
-    .post-content h4 {
-      font-size: 20px; }
+          font-size: 22px;
+        }
+      }
+      .post-content h4 {
+        font-size: 20px;
+      }
       @media screen and (max-width: 800px) {
         .post-content h4 {
-          font-size: 18px; } }
-  </style>
+          font-size: 18px;
+        }
+      }
+    </style>
 
-
-  <link rel="canonical" href="http://localhost:4000/about/">
-  <link rel="alternate" type="application/rss+xml" title="Fernando Agüero" href="http://localhost:4000/feed.xml">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Open+Sans" rel="stylesheet">
-</head>
-
+    <link rel="canonical" href="http://localhost:4000/about/" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Fernando Agüero"
+      href="http://localhost:4000/feed.xml"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700|Open+Sans"
+      rel="stylesheet"
+    />
+  </head>
 
   <body>
-
     <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="/">Fernando Agüero</a>
 
-  <div class="wrapper">
+        <nav class="site-nav">
+          <a href="#" class="menu-icon">
+            <svg viewBox="0 0 18 15">
+              <path
+                fill="#424242"
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"
+              />
+              <path
+                fill="#424242"
+                d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"
+              />
+              <path
+                fill="#424242"
+                d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"
+              />
+            </svg>
+          </a>
 
-    <a class="site-title" href="/">Fernando Agüero</a>
+          <div class="trigger">
+            <a class="page-link" href="/about/">About me</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About me</a>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <a class="page-link" href="/posts">Posts</a>
-          <a class="page-link" href="/notes">Notes</a>
-          <a class="page-link" href="/bookmarks">Bookmarks</a>
+            <a class="page-link" href="/posts">Posts</a>
+            <a class="page-link" href="/notes">Notes</a>
+            <a class="page-link" href="/bookmarks">Bookmarks</a>
+          </div>
+        </nav>
       </div>
-    </nav>
-
-  </div>
-
-</header>
-
+    </header>
 
     <div class="page-content">
       <div class="wrapper">
         <article class="post">
+          <header class="post-header">
+            <h1 class="post-title">About me</h1>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">About me</h1>
-  </header>
+          <div class="post-content">
+            <p>
+              I work as a Technical Product Manager at
+              <a href="https://lang.ai">Lang.ai</a>, the first unsupervised AI
+              for language understanding. You can learn more about my work
+              experience in my
+              <a href="https://www.linkedin.com/in/fjaguero/"
+                >LinkedIn profile</a
+              >.
+            </p>
 
-  <div class="post-content">
-    <p>I work as a Technical Product Manager at <a href="https://lang.ai">Lang.ai</a>, the first unsupervised AI for language understanding. You can learn more about my work experience in my <a href="https://www.linkedin.com/in/fjaguero/">LinkedIn profile</a>.</p>
+            <h2 id="writing">Writing</h2>
 
-<h2 id="writing">Writing</h2>
+            <p>
+              In 2017 I launched my first book about productivity,
+              <a href="https://thesuccesshacker.es/">The Success Hacker</a>. In
+              2018 I started to write my first Sci-Fi book.
+            </p>
 
-<p>In 2017 I launched my first book about productivity, <a href="https://thesuccesshacker.es/">The Success Hacker</a>. In 2018 I started to write my first Sci-Fi book.</p>
+            <h2 id="community">Community</h2>
 
-<h2 id="community">Community</h2>
+            <p><em>Developers</em></p>
 
-<p><em>Developers</em></p>
+            <p>
+              I started
+              <a
+                href="https://medium.com/the-web-is-the-platform/introducing-valenciajs-1a73d39a9c94"
+                >ValenciaJS</a
+              >
+              in 2015 as an effort to empower the JS community in Valencia, the
+              third biggest city of Spain. In 2017, I started
+              <a
+                href="https://medium.com/@fjaguero/introducing-madrid-devs-2712c6c38e3c"
+                >MadridDevs</a
+              >, A public Slack team to empower the local developer’s community.
+            </p>
 
-<p>I started <a href="https://medium.com/the-web-is-the-platform/introducing-valenciajs-1a73d39a9c94">ValenciaJS</a> in 2015 as an effort to empower the JS community in Valencia, the third biggest city of Spain. In 2017, I started <a href="https://medium.com/@fjaguero/introducing-madrid-devs-2712c6c38e3c">MadridDevs</a>, A public Slack team to empower the local developer’s community.</p>
+            <p><em>The Web</em></p>
 
-<p><em>The Web</em></p>
+            <p>
+              I’ve been involved in the
+              <a
+                href="https://www.mozilla-hispano.org/documentacion/Usuario:Fjaguero"
+                >Mozilla Hispano</a
+              >
+              community for almost 5 years now, helping to promote openness,
+              innovation &amp; opportunity on the Web. I gave talks in
+              Argentina, Spain, Peru and Poland related to Mozilla.
+            </p>
 
-<p>I’ve been involved in the <a href="https://www.mozilla-hispano.org/documentacion/Usuario:Fjaguero">Mozilla Hispano</a> community for almost 5 years now, helping to promote openness, innovation &amp; opportunity on the Web. I gave talks in Argentina, Spain, Peru and Poland related to Mozilla.</p>
+            <p><em>Languages</em></p>
 
-<p><em>Languages</em></p>
+            <p>
+              Since September 2017 I’ve been organizing the
+              <a href="http://events.duolingo.com/madrid/"
+                >Duolingo Spanish and English meetups</a
+              >
+              in Madrid. Now I’m a Global Ambassador, helping to get Madrid to
+              be the first city to have Duolingo language meetups in the top six
+              languages.
+            </p>
 
-<p>Since September 2017 I’ve been organizing the <a href="http://events.duolingo.com/madrid/">Duolingo Spanish and English meetups</a> in Madrid. Now I’m a Global Ambassador, helping to get Madrid to be the first city to have Duolingo language meetups in the top six languages.</p>
+            <h2 id="learning">Learning</h2>
 
-<h2 id="learning">Learning</h2>
+            <p>I’m currently focusing my learning time on:</p>
 
-<p>I’m currently focusing my learning time on:</p>
-
-<ul>
-  <li>
-    <p>NLP</p>
-  </li>
-  <li>
-    <p>German</p>
-  </li>
-  <li>
-    <p>Playing the piano</p>
-  </li>
-</ul>
-
-  </div>
-
-</article>
-
+            <ul>
+              <li>
+                <p>NLP</p>
+              </li>
+              <li>
+                <p>German</p>
+              </li>
+              <li>
+                <p>Playing the piano</p>
+              </li>
+            </ul>
+          </div>
+        </article>
       </div>
     </div>
 
     <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <ul>
-      <li>
-        <a href="https://medium.com/@fjaguero">Medium</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/@fjaguero">Twitter</a>
-      </li>
-      <li>
-        <a href="http://github.com/fjaguero">Github</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn">LinkedIn</a>
-      </li>
-    </ul>
-
-  </div>
-
-</footer>
-
-
+      <div class="wrapper">
+        <ul>
+          <li>
+            <a href="https://medium.com/@fjaguero">Medium</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/@fjaguero">Twitter</a>
+          </li>
+          <li>
+            <a href="http://github.com/fjaguero">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/fjaguero/" title="LinkedIn"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
-
 </html>
