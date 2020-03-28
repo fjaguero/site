@@ -17,7 +17,7 @@ layout: default
 
   <ul class="post-list">
     {% assign items = site.notes | sort: 'date' | reverse %} {% for note in
-    items limit:5 %}
+    items limit:3 %}
     <li>
       <span class="post-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
       <h2>
@@ -33,7 +33,7 @@ layout: default
 
   <ul class="post-list">
     {% assign latestPosts = site.posts | sort: 'date' | reverse %} {% for post
-    in latestPosts limit:5 %}
+    in latestPosts limit:3 %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
