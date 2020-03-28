@@ -2,8 +2,8 @@
 title: Running a Product Designer interview
 date: 2018-04-23 22:50:00 Z
 tags:
-  - product
-  - interview
+- product
+- interview
 ---
 
 Today I ran another interview. This time it was for the Product Designer role. It was the last step of the process, and it was quite funny.

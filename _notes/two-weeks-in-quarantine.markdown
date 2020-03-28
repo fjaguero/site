@@ -1,7 +1,6 @@
 ---
 title: Two weeks in quarantine
 date: 2020-03-28 13:33:00 Z
-tags:
 ---
 
 It's been two weeks and one day since we don't go outside. It's been hard, especially with the good weather
