@@ -1,6 +1,6 @@
 ---
 title: Two weeks in quarantine
-date: 2020-28-03 13:33:00 Z
+date: 2020-03-28 13:33:00 Z
 tags:
 ---
 
