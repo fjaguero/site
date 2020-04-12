@@ -8,7 +8,7 @@ tags:
 
 **# Note: this is a work-in-progress post**
 
-_I will be updating this post when a substantial change of my workflow happens_
+_I will be updating this post when a substantial change of my workflow happens. Last update: April 2020_
 
 This is a list of the software I use (and how I use it) in order to organize my personal life and work.
 
