@@ -6,7 +6,8 @@ tags:
   - productivity
 ---
 
-_I will be updating this post when a substantial change of my workflow happens. Last update: April 2020_
+_I will be updating this post when a substantial change of my workflow happens._
+_Last update: April 2020._
 
 This is a list of the software I use (and how I use it) in order to organize my personal life and work.
 
