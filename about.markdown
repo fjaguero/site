@@ -9,7 +9,7 @@ I work as a Technical Product Manager at [Lang.ai](https://lang.ai), a platform 
 
 ## Side projects
 
-In 2017, I launched my first book about productivity, [The Success Hacker](https://thesuccesshacker.es/). This year I started [In Progress Show](http://inprogressshow.com), a podcast where we look at how tech companies work from the inside.
+In 2017, I launched my first book about productivity, [The Success Hacker](https://thesuccesshacker.es/). In 2019, I started [In Progress Show](http://inprogressshow.com), a podcast where we look at how tech companies work from the inside.
 
 ## Community
 
