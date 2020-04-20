@@ -10,7 +10,7 @@
     name="description"
     content="Fernando Agüero is a Product Manager currently working at Lang.ai"
   />
-  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" href="/favicon.ico" />
   <style>
     /**
    * Reset some basic elements
@@ -301,6 +301,7 @@
     .site-footer {
       border-top: 1px solid #e8e8e8;
       padding: 30px 0;
+      font-size: 1rem;
     }
     .site-footer ul {
       margin-left: 0;
@@ -483,6 +484,60 @@
         font-size: 20px;
       }
     }
+
+    /**
+   * Dark mode
+   */
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #fff;
+        background: rgb(38, 38, 39);
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #fff;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: #ffffffad;
+      }
+
+      img {
+        opacity: 0.5;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      img:hover {
+        opacity: 1;
+      }
+
+      .site-nav .page-link {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .site-title,
+      .site-title:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .site-footer li a {
+        color: #fff;
+      }
+    }
+
+    /**
+   * Fonts
+   */
 
     /* latin-ext */
     @font-face {
