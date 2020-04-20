@@ -502,12 +502,11 @@
       }
 
       a {
-        color: #fff;
-        text-decoration: underline;
+        color: rgb(76, 187, 248);
       }
 
       a:visited {
-        color: #ffffffad;
+        color: rgb(76, 187, 248);
       }
 
       img {
@@ -522,6 +521,22 @@
       .site-nav .page-link {
         color: #fff;
         text-decoration: none;
+      }
+
+      @media screen and (max-width: 600px) {
+        .site-nav {
+          position: absolute;
+          top: 9px;
+          right: 15px;
+          background-color: rgb(133, 122, 122);
+          border: 1px solid #e8e8e8;
+          border-radius: 5px;
+          text-align: right;
+        }
+
+        .site-nav .menu-icon > svg path {
+          fill: #fff;
+        }
       }
 
       .site-title,
