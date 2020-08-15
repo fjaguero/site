@@ -1,5 +1,5 @@
 ---
-title: In Progress show hits 10 episodes
+title: In Progress Show hits 10 episodes
 date: 2020-08-15 18:06:00 Z
 tags:
 - podcast
