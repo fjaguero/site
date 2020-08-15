@@ -2,8 +2,8 @@
 title: The software I use to focus, stay productive, and avoid stress
 date: 2020-04-12 13:57:00 Z
 tags:
-  - personal
-  - productivity
+- personal
+- productivity
 ---
 
 _I will be updating this post when a substantial change of my workflow happens._
