@@ -5,7 +5,7 @@ date: 2018-04-14 21:19:00 Z
 
 ![banner.jpg](/uploads/banner.jpg)
 
-I work as a Technical Product Manager at [Lang.ai](https://lang.ai), a platform to automate the tagging of support tickets and calls. You can learn more about my work experience in my [LinkedIn profile](https://www.linkedin.com/in/fjaguero/).
+I work as a Technical Product Manager at [Lang.ai](https://lang.ai), a platform for data-driven automations to scale support teams. You can learn more about my work experience in my [LinkedIn profile](https://www.linkedin.com/in/fjaguero/).
 
 ## Side projects
 
