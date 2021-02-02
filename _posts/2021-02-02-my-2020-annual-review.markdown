@@ -80,7 +80,7 @@ I started a book about Epicuro and another one about the cynics but I didn't fin
 ## Habits to recover
 
 - Meditation: start with 3 minutes every day after lunch
-- Ready at home or at coffee shops
+- Read at home or at coffee shops
 - Play Ringfit at least once a week, along with the usual Badminton practice
 
 # 2020 in Music
