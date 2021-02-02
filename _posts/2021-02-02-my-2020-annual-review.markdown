@@ -32,7 +32,7 @@ tags:
 
 **A global pandemic came in.** This is a big deal. Thinking about it from an existencialest perspective, it's insane to think how one person eating a vat (?) can have such a barcaric impact on every corner of the world.
 
-**I ready barely nothing.** I just went throug a few books I can enumerate:
+**I read barely nothing.** I just went throug a few books I can enumerate:
 
 - Sci-fi
   - Hitchickers Guide to the Galaxy I and II
@@ -58,7 +58,7 @@ I started a book about Epicuro and another one about the cynics but I didn't fin
 
 ## Personal
 
-**Keep the progressive minimalism spirit.** By buying less and letting go what’s not essential.
+**Keep the progressive minimalism spirit.** By buying less and letting go of what is not essential.
 
 **Bring back philosophy into my reading habit.** In the last few years I’ve been reading a lot of philosophy and it had a remarkable impact in my life. Lately I replaced this with more work-related topics. I’m starting this year with Popper’s “The Open Society and its Enemies”.
 
@@ -70,7 +70,7 @@ I started a book about Epicuro and another one about the cynics but I didn't fin
 
 **I am considering formal education for my PM role.** Specially to strengthen the strategy and business side of this role.
 
-**Improve my K8s knowledge.** It might not be useful in another company, but while we don’t have another dedicated dev., I think it would be important to understand such a critical component from our infrastructure.
+**Improve my K8s knowledge.** It might not be useful in another company, but while we don’t have another dedicated dev, I think it would be important to understand such a critical component from our infrastructure.
 
 ## Habits to break
 
@@ -81,7 +81,7 @@ I started a book about Epicuro and another one about the cynics but I didn't fin
 
 - Meditation: start with 3 minutes every day after lunch
 - Ready at home or at coffee shops
-- Play ringgit at least once a week, along with the usual Badminton practice
+- Play Ringfit at least once a week, along with the usual Badminton practice
 
 # 2020 in Music
 
